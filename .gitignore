@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+data/chroma_db/
+feedback/feedback_store.json
+feedback/agent_memory.json
+*.egg-info/
+.venv/
+venv/
