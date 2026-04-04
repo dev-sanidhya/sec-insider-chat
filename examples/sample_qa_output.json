@@ -1,0 +1,15 @@
+[
+  {
+    "question": "What are the top insider trades today?",
+    "answer": "Top 5 SEC Form 4 trades (last 24h):\n1. NVDA - Jensen Huang (CEO) SOLD 05.1M\n2. META - Zuckerberg (CEO) SOLD 3.0M\n3. TSLA - Denholm (Director) SOLD .4M\n4. AAPL - Levinson (Director) BOUGHT .7M\n5. AMZN - Jassy (CEO) SOLD .5M\n\n4/5 are SELLS. Only AAPL director is buying."
+  },
+  {
+    "question": "What is the social media sentiment for NVDA?",
+    "answer": "NVDA X/Twitter sentiment (7 days): ~40% bullish, ~30% bearish, ~30% neutral. Top tweet: 445 likes for buy-the-dip call."
+  },
+  {
+    "question": "Show me a chart of insider trades.",
+    "answer": "[Bar chart generated showing top 5 trades by value, color-coded BUY=green SELL=red]",
+    "chart_generated": true
+  }
+]

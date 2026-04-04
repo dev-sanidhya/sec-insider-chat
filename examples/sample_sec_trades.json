@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2025-04-04T00:00:00Z",
+  "trades": [
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "insider_name": "Jensen Huang",
+      "insider_title": "CEO",
+      "transaction_type": "SELL",
+      "shares": 120000,
+      "price_per_share": 875.5,
+      "total_value": 105060000,
+      "transaction_date": "2025-04-03",
+      "source_url": "https://sec.gov"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "insider_name": "Mark Zuckerberg",
+      "insider_title": "CEO",
+      "transaction_type": "SELL",
+      "shares": 45000,
+      "price_per_share": 510.25,
+      "total_value": 22961250,
+      "transaction_date": "2025-04-03",
+      "source_url": "https://sec.gov"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla Inc",
+      "insider_name": "Robyn Denholm",
+      "insider_title": "Director",
+      "transaction_type": "SELL",
+      "shares": 30000,
+      "price_per_share": 180.0,
+      "total_value": 5400000,
+      "transaction_date": "2025-04-03",
+      "source_url": "https://sec.gov"
+    },
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc",
+      "insider_name": "Arthur Levinson",
+      "insider_title": "Director",
+      "transaction_type": "BUY",
+      "shares": 10000,
+      "price_per_share": 172.3,
+      "total_value": 1723000,
+      "transaction_date": "2025-04-03",
+      "source_url": "https://sec.gov"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon.com",
+      "insider_name": "Andy Jassy",
+      "insider_title": "CEO",
+      "transaction_type": "SELL",
+      "shares": 8000,
+      "price_per_share": 185.5,
+      "total_value": 1484000,
+      "transaction_date": "2025-04-03",
+      "source_url": "https://sec.gov"
+    }
+  ]
+}
