@@ -1,0 +1,95 @@
+{
+  "fetched_at": "2026-04-04T18:14:37.378464",
+  "trades": [
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave, Inc.",
+      "insider_name": "Venturo Brian M",
+      "insider_title": "Chief Strategy Officer",
+      "transaction_type": "SELL",
+      "shares": 389584.0,
+      "price_per_share": 80.3556,
+      "total_value": 31305256.0704,
+      "transaction_date": "2026-04-02",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2058067/000176962826000143/0001769628-26-000143-index.htm",
+      "signal": {
+        "signal": "BEARISH",
+        "confidence": 1.0,
+        "reason": "Heavy selling: $181,598,961 sold vs $0 bought by 2 insider(s)"
+      },
+      "cluster_buy": false
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave, Inc.",
+      "insider_name": "Venturo Brian M",
+      "insider_title": "Chief Strategy Officer",
+      "transaction_type": "SELL",
+      "shares": 168212.0,
+      "price_per_share": 78.4524,
+      "total_value": 13196635.1088,
+      "transaction_date": "2026-04-01",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2058067/000176962826000143/0001769628-26-000143-index.htm",
+      "signal": {
+        "signal": "BEARISH",
+        "confidence": 1.0,
+        "reason": "Heavy selling: $181,598,961 sold vs $0 bought by 2 insider(s)"
+      },
+      "cluster_buy": false
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave, Inc.",
+      "insider_name": "Intrator Michael N",
+      "insider_title": "CEO and President",
+      "transaction_type": "SELL",
+      "shares": 95609.0,
+      "price_per_share": 78.4873,
+      "total_value": 7504092.2657,
+      "transaction_date": "2026-04-01",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2058037/000176962826000142/0001769628-26-000142-index.htm",
+      "signal": {
+        "signal": "BEARISH",
+        "confidence": 1.0,
+        "reason": "Heavy selling: $181,598,961 sold vs $0 bought by 2 insider(s)"
+      },
+      "cluster_buy": false
+    },
+    {
+      "ticker": "NTRA",
+      "company": "Natera, Inc.",
+      "insider_name": "RABINOWITZ DANIEL",
+      "insider_title": "SEC. AND CHIEF LEGAL OFFICER",
+      "transaction_type": "SELL",
+      "shares": 3213.0,
+      "price_per_share": 203.072,
+      "total_value": 652470.336,
+      "transaction_date": "2026-04-01",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1857843/000185784326000012/0001857843-26-000012-index.htm",
+      "signal": {
+        "signal": "BEARISH",
+        "confidence": 1.0,
+        "reason": "Heavy selling: $2,618,164 sold vs $0 bought by 2 insider(s)"
+      },
+      "cluster_buy": false
+    },
+    {
+      "ticker": "SYRE",
+      "company": "Spyre Therapeutics, Inc.",
+      "insider_name": "Turtle Cameron",
+      "insider_title": "Chief Executive Officer",
+      "transaction_type": "SELL",
+      "shares": 12344.0,
+      "price_per_share": 49.2,
+      "total_value": 607324.8,
+      "transaction_date": "2026-04-01",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1758363/000175836326000007/0001758363-26-000007-index.htm",
+      "signal": {
+        "signal": "BEARISH",
+        "confidence": 1.0,
+        "reason": "Heavy selling: $2,543,861 sold vs $0 bought by 3 insider(s)"
+      },
+      "cluster_buy": false
+    }
+  ]
+}

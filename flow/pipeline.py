@@ -12,21 +12,28 @@ Pipeline stages:
 Run once to populate the knowledge base, then re-run to refresh.
 Can be scheduled: python -m flow.pipeline
 """
+import io
 import json
 import logging
+import sys
 from datetime import datetime
 from pathlib import Path
 
 from rich.console import Console
-from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.table import Table
 
 from config import SEC_DATA_DIR
 from tools.sec_tools import SECInsiderTradingFetcher
-from tools.apify_tools import TwitterScraper
+from tools.social_tools import TwitterScraper  # uses APIFY with StockTwits fallback
 from rag.indexer import RAGIndexer
 
 logger = logging.getLogger(__name__)
+
+# Force UTF-8 on Windows to avoid cp1252 crash with Rich's Unicode spinner chars
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
 console = Console()
 
 
@@ -62,82 +69,71 @@ class DataPipeline:
         trades = []
 
         if refresh_data:
-            with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
-                task = p.add_task("Fetching Form 4 filings + running signal filters...", total=None)
-                trades = self.sec_fetcher.get_top_insider_trades(hours=24, top_n=top_n_trades)
-                p.update(task, description=f"Found {len(trades)} trades with signals")
+            logger.info("Fetching Form 4 filings + running signal filters...")
+            trades = self.sec_fetcher.get_top_insider_trades(hours=24, top_n=top_n_trades)
+            logger.info(f"Found {len(trades)} trades with signals")
         else:
             trades = self.sec_fetcher._load_cached_data()
-            console.print(f"  Using cached data: {len(trades)} trades")
+            logger.info(f"Using cached data: {len(trades)} trades")
 
         if not trades:
-            console.print("[red]No insider trades found. Check SEC EDGAR availability.[/]")
+            logger.error("No insider trades found. Check SEC EDGAR availability.")
             return {"error": "No SEC data available", "trades": [], "tweets": {}}
 
         self._print_trades_table(trades)
         tickers = list({t["ticker"] for t in trades if t.get("ticker")})
-        console.print(f"\n[green]Tickers to monitor:[/] {', '.join(f'${t}' for t in tickers)}")
+        logger.info(f"Tickers to monitor: {', '.join(tickers)}")
 
         # ── Step 2: Ticker tweet scraping ────────────────────────────────
-        console.print("\n[bold yellow]Step 2/4:[/] Scraping X/Twitter (ticker-based) via APIFY...")
+        logger.info("Step 2/4: Scraping X/Twitter (ticker-based) via APIFY...")
         tweet_data = {}
         creator_data = {}
 
         try:
             scraper = TwitterScraper()
 
-            with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
-                for ticker in tickers:
-                    task = p.add_task(f"Fetching tweets for ${ticker}...", total=None)
-                    tweets = scraper.fetch_tweets_for_ticker(
-                        ticker, days=tweet_days, max_tweets=max_tweets_per_ticker
-                    )
-                    tweet_data[ticker] = tweets
-                    p.update(task, description=f"${ticker}: {len(tweets)} tweets")
+            for ticker in tickers:
+                logger.info(f"Fetching tweets for ${ticker}...")
+                tweets = scraper.fetch_tweets_for_ticker(
+                    ticker, days=tweet_days, max_tweets=max_tweets_per_ticker
+                )
+                tweet_data[ticker] = tweets
+                logger.info(f"  ${ticker}: {len(tweets)} tweets fetched")
 
             # ── Step 3: 100 creator sentiment ─────────────────────────────
             if track_creators:
-                console.print("\n[bold yellow]Step 3/4:[/] Tracking 100 X financial creators...")
-                with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
-                    task = p.add_task("Fetching creator sentiment for all tickers...", total=None)
-                    creator_data = scraper.fetch_creator_sentiment(
-                        tickers=tickers,
-                        days=tweet_days,
-                        max_tweets_per_creator=20,
-                    )
-                    n_creators = creator_data.get("creators_tracked", 0)
-                    top = creator_data.get("top_creators", [])
-                    p.update(task, description=f"Tracked {n_creators} creators, {len(top)} active on these tickers")
-
-                self._print_creator_table(creator_data.get("top_creators", [])[:5])
+                logger.info("Step 3/4: Tracking 100 X financial creators...")
+                creator_data = scraper.fetch_creator_sentiment(
+                    tickers=tickers,
+                    days=tweet_days,
+                    max_tweets_per_creator=20,
+                )
+                n_creators = creator_data.get("creators_tracked", 0)
+                top = creator_data.get("top_creators", [])
+                logger.info(f"Tracked {n_creators} creators, {len(top)} active on these tickers")
+                self._print_creator_table(top[:5])
             else:
-                console.print("\n[dim]Step 3/4: Creator tracking skipped (track_creators=False)[/]")
+                logger.info("Step 3/4: Creator tracking skipped")
 
         except ValueError as e:
-            console.print(f"[yellow]APIFY not configured: {e}[/]")
-            console.print("[yellow]Loading cached data if available...[/]")
+            logger.warning(f"APIFY not configured: {e}")
             tweet_data = self._load_cached_tweets(tickers)
 
         total_tweets = sum(len(v) for v in tweet_data.values())
-        console.print(f"[green]Total ticker tweets collected:[/] {total_tweets}")
+        logger.info(f"Total ticker tweets collected: {total_tweets}")
 
         # ── Step 4: RAG indexing ─────────────────────────────────────────
-        console.print("\n[bold yellow]Step 4/4:[/] Indexing into ChromaDB...")
-        with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=console) as p:
-            task = p.add_task("Indexing SEC trades...", total=None)
-            sec_chunks = self.indexer.index_sec_trades(trades)
-            p.update(task, description=f"Indexed {sec_chunks} SEC trade chunks")
+        logger.info("Step 4/4: Indexing into ChromaDB...")
+        sec_chunks = self.indexer.index_sec_trades(trades)
+        logger.info(f"Indexed {sec_chunks} SEC trade chunks")
 
-            task2 = p.add_task("Indexing ticker tweets...", total=None)
-            tweet_chunks = self.indexer.index_tweets(tweet_data)
-            p.update(task2, description=f"Indexed {tweet_chunks} tweet chunks")
+        tweet_chunks = self.indexer.index_tweets(tweet_data)
+        logger.info(f"Indexed {tweet_chunks} tweet chunks")
 
-            # Also index creator tweets per ticker
-            if creator_data:
-                task3 = p.add_task("Indexing creator tweets...", total=None)
-                creator_tweets_by_ticker = creator_data.get("creator_tweets", {})
-                creator_chunks = self.indexer.index_tweets(creator_tweets_by_ticker)
-                p.update(task3, description=f"Indexed {creator_chunks} creator tweet chunks")
+        if creator_data:
+            creator_tweets_by_ticker = creator_data.get("creator_tweets", {})
+            creator_chunks = self.indexer.index_tweets(creator_tweets_by_ticker)
+            logger.info(f"Indexed {creator_chunks} creator tweet chunks")
 
         stats = self.indexer.get_stats()
         elapsed = (datetime.utcnow() - start_time).total_seconds()

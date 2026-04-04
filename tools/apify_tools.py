@@ -92,10 +92,11 @@ class TwitterScraper:
         query = f"${ticker} OR #{ticker} lang:en since:{since_date}"
         logger.info(f"Scraping ticker tweets for ${ticker} since {since_date}...")
 
+        # web.harvester/easy-twitter-search-scraper input format
         run_input = {
-            "searchTerms": [query],
-            "maxItems": max_tweets,
-            "queryType": "Latest",
+            "queries": [query],
+            "maxTweets": max_tweets,
+            "language": "en",
         }
 
         tweets = self._run_actor(run_input, ticker)
@@ -152,9 +153,9 @@ class TwitterScraper:
             from_filter = " OR ".join(f"from:{c}" for c in chunk)
             query = f"({from_filter}) ({ticker_filter}) since:{since_date} lang:en"
             run_input = {
-                "searchTerms": [query],
-                "maxItems": max_tweets_per_creator * len(chunk),
-                "queryType": "Latest",
+                "queries": [query],
+                "maxTweets": max_tweets_per_creator * len(chunk),
+                "language": "en",
             }
             tweets = self._run_actor(run_input, ticker=tickers[0] if tickers else "")
             all_creator_tweets.extend(tweets)

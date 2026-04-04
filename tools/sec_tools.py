@@ -18,8 +18,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
+import warnings
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from config import SEC_EDGAR_BASE, SEC_FORM4_RSS, SEC_USER_AGENT, SEC_DATA_DIR
@@ -366,40 +368,64 @@ class SECInsiderTradingFetcher:
             "output": "atom",
         }
         filings = []
+        seen_accessions = set()
         try:
             resp = self._get(SEC_FORM4_RSS, params=params)
-            soup = BeautifulSoup(resp.content, "xml")
+            # Parse as HTML since BeautifulSoup xml chokes on ISO-8859-1 Atom feeds
+            soup = BeautifulSoup(resp.content, "lxml")
             entries = soup.find_all("entry")
-            logger.info(f"Found {len(entries)} Form 4 entries in RSS feed")
+            logger.info(f"Found {len(entries)} raw entries in RSS feed")
+
             for entry in entries:
                 try:
                     filing = self._parse_rss_entry(entry)
                     if filing:
-                        filings.append(filing)
+                        acc = filing.get("accession", "")
+                        if acc and acc not in seen_accessions:
+                            seen_accessions.add(acc)
+                            filings.append(filing)
                 except Exception as e:
                     logger.debug(f"Error parsing entry: {e}")
+
+            logger.info(f"Unique filings after dedup: {len(filings)}")
         except Exception as e:
             logger.error(f"Error fetching RSS feed: {e}")
         return filings
 
     def _parse_rss_entry(self, entry) -> Optional[dict]:
-        title = entry.find("title")
-        updated = entry.find("updated")
-        filing_href = entry.find("filing-href")
-        company_name = entry.find("company-name")
-        cik = entry.find("cik")
-        if not all([title, filing_href]):
+        """Parse a single Atom entry from the SEC EDGAR RSS feed."""
+        # The feed uses <link rel="alternate" href="..."> for the filing URL
+        link_tag = entry.find("link", rel="alternate") or entry.find("link")
+        href = ""
+        if link_tag:
+            href = link_tag.get("href", "")
+
+        if not href:
             return None
+
+        title_tag = entry.find("title")
+        updated_tag = entry.find("updated")
+        id_tag = entry.find("id")
+
+        title = title_tag.text.strip() if title_tag else ""
+        updated = updated_tag.text.strip() if updated_tag else ""
+
+        # Extract accession number from the id tag (urn:tag:sec.gov,...:accession-number=...)
+        accession = ""
+        if id_tag:
+            raw_id = id_tag.text.strip()
+            if "accession-number=" in raw_id:
+                accession = raw_id.split("accession-number=")[-1]
+
         return {
-            "title": title.text.strip() if title else "",
-            "updated": updated.text.strip() if updated else "",
-            "filing_href": filing_href.text.strip() if filing_href else "",
-            "company_name": company_name.text.strip() if company_name else "",
-            "cik": cik.text.strip() if cik else "",
+            "title": title,
+            "updated": updated,
+            "filing_href": href,
+            "accession": accession,
         }
 
     def parse_form4_transaction(self, filing_href: str) -> list[dict]:
-        """Parse a Form 4 filing index page, then fetch and parse the XML."""
+        """Parse a Form 4 filing index page, then fetch and parse the raw XML."""
         transactions = []
         try:
             resp = self._get(filing_href)
@@ -407,7 +433,10 @@ class SECInsiderTradingFetcher:
             xml_link = None
             for link in soup.find_all("a", href=True):
                 href = link["href"]
-                if href.endswith(".xml") and "xbrl" not in href.lower():
+                # Must be .xml, not the XSL-rendered version (xslF345X06 folder), not XBRL
+                if (href.endswith(".xml")
+                        and "xsl" not in href.lower()
+                        and "xbrl" not in href.lower()):
                     xml_link = f"https://www.sec.gov{href}" if href.startswith("/") else href
                     break
             if not xml_link:
@@ -445,8 +474,16 @@ class SECInsiderTradingFetcher:
             for txn in soup.find_all("nonDerivativeTransaction"):
                 try:
                     def val(tag_name):
+                        """Extract value from a tag — handles both <tag><value>X</value></tag>
+                        and <tag>X</tag> formats found in SEC Form 4 XML."""
                         t = txn.find(tag_name)
-                        return t.find("value").text.strip() if t and t.find("value") else ""
+                        if not t:
+                            return ""
+                        v = t.find("value")
+                        if v:
+                            return v.text.strip()
+                        # Direct text (no <value> child)
+                        return t.text.strip()
 
                     date_str = val("transactionDate")
                     code = val("transactionCode")

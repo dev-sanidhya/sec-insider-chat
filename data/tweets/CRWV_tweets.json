@@ -1,0 +1,35 @@
+{
+  "ticker": "CRWV",
+  "source": "reddit",
+  "fetched_at": "2026-04-04T18:24:40.056956",
+  "tweets": [
+    {
+      "id": "1s7u9kt",
+      "ticker": "CRWV",
+      "author": "STBWB",
+      "text": "But the dip they said, this is the bottom they said. Should I put a stop loss or nah?",
+      "created_at": "2026-03-30T15:45:54+00:00",
+      "likes": 149,
+      "retweets": 93,
+      "url": "https://reddit.com/r/wallstreetbets/comments/1s7u9kt/but_the_dip_they_said_this_is_the_bottom_they_said/",
+      "engagement": 335,
+      "sentiment": "neutral",
+      "source": "reddit",
+      "subreddit": "wallstreetbets"
+    },
+    {
+      "id": "1s68p8i",
+      "ticker": "CRWV",
+      "author": "HeavyPurpleBallsack",
+      "text": "The current market meltdown and how to navigate it.. &amp;#x200B;\n\nmy positions \n\n\\-short SLV 79.71/oz (closing at 50-55/oz)\n\n\\-short CRWV @101 (closing at $0-20)\n\n\\-short CVNA @382 ( don't touch. risky a lot of moving parts to this stock, but insider are all selling after short reports came out)\n\n\\-short TSLA @386 (overall postive on tsla but valuation compression needs to happen first, will turn around and buy eventually)\n\nEdit: I forgot I have calls on the VIX with a strike price breakeven of",
+      "created_at": "2026-03-28T18:53:56+00:00",
+      "likes": 473,
+      "retweets": 403,
+      "url": "https://reddit.com/r/wallstreetbets/comments/1s68p8i/the_current_market_meltdown_and_how_to_navigate_it/",
+      "engagement": 1279,
+      "sentiment": "neutral",
+      "source": "reddit",
+      "subreddit": "wallstreetbets"
+    }
+  ]
+}
