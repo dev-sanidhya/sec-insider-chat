@@ -10,6 +10,10 @@ MODEL = os.getenv("MODEL", "nousresearch/hermes-3-llama-3.1-8b:free")
 SEC_USER_AGENT = os.getenv("SEC_USER_AGENT", "CrowdWisdomTrading contact@example.com")
 PORT = int(os.getenv("PORT", "7860"))
 
+# Optional premium data sources (from referenced repos)
+SEC_API_KEY = os.getenv("SEC_API_KEY", "")          # sec-api.io (janlukasschroeder/sec-api-python)
+ENABLE_SEC_AGENTKIT = os.getenv("ENABLE_SEC_AGENTKIT", "false").lower() == "true"  # sec-edgar-agentkit
+
 # SEC EDGAR endpoints
 SEC_EDGAR_BASE = "https://data.sec.gov"
 SEC_EDGAR_FULL_TEXT = "https://efts.sec.gov/LATEST/search-index"
