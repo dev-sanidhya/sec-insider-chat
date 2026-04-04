@@ -1,15 +1,40 @@
 [
   {
-    "question": "What are the top insider trades today?",
-    "answer": "Top 5 SEC Form 4 trades (last 24h):\n1. NVDA - Jensen Huang (CEO) SOLD 05.1M\n2. META - Zuckerberg (CEO) SOLD 3.0M\n3. TSLA - Denholm (Director) SOLD .4M\n4. AAPL - Levinson (Director) BOUGHT .7M\n5. AMZN - Jassy (CEO) SOLD .5M\n\n4/5 are SELLS. Only AAPL director is buying."
+    "question": "What are the top insider trades in the last 24 hours?",
+    "answer": "Based on SEC Form 4 filings from the last 24 hours, here are the top 5 insider trades by dollar value:\n\n1. $NVDA — Jensen Huang (CEO) SOLD 120,000 shares at $875.50/share = $105,060,000\n   Signal: BEARISH (confidence: 0.82) — heavy CEO selling\n\n2. $META — Mark Zuckerberg (CEO) SOLD 45,000 shares at $510.25/share = $22,961,250\n   Signal: BEARISH (confidence: 0.75)\n\n3. $TSLA — Robyn Denholm (Director) SOLD 30,000 shares at $180.00/share = $5,400,000\n   Signal: BEARISH (confidence: 0.70)\n\n4. $AAPL — Arthur Levinson (Director) BOUGHT 10,000 shares at $172.30/share = $1,723,000\n   Signal: BULLISH (confidence: 0.65)\n\n5. $AMZN — Andy Jassy (CEO) SOLD 8,000 shares at $185.50/share = $1,484,000\n   Signal: BEARISH (confidence: 0.68)\n\nSummary: 4 out of 5 top trades are SELLS, totaling $135.6M in insider selling today. The only buy is from Apple's director ($1.7M). Overall market signal: BEARISH with high insider distribution.",
+    "context_source": "SEC EDGAR Form 4 filings",
+    "chart_generated": false
   },
   {
     "question": "What is the social media sentiment for NVDA?",
-    "answer": "NVDA X/Twitter sentiment (7 days): ~40% bullish, ~30% bearish, ~30% neutral. Top tweet: 445 likes for buy-the-dip call."
+    "answer": "Based on X/Twitter data for $NVDA over the last 7 days (100 tweets analyzed, including posts from 12 of the tracked 100 financial creators):\n\nSentiment breakdown:\n- Positive (bullish): 40% — common themes: AI demand, Blackwell GPU cycle, buy the dip\n- Negative (bearish): 30% — common themes: CEO selling, AI bubble concerns, valuation\n- Neutral: 30% — news sharing, price updates\n\nTop creator posts about $NVDA:\n- @stockwatch (520 likes): 'NVDA still the AI leader. Insiders sell for liquidity, not fundamentals.'\n- @quant_trader (445 likes): 'Strong buy on NVDA. Blackwell demand outstripping supply.'\n- @bear_market_pro (180 likes): 'NVDA CEO dumping shares = major red flag.'\n\nTotal engagement on $NVDA tweets: 12,450 likes + 3,200 retweets\nOverall creator consensus: Mixed-to-bullish despite insider selling.",
+    "context_source": "APIFY Twitter scraper + 100 creator tracking",
+    "chart_generated": false
   },
   {
-    "question": "Show me a chart of insider trades.",
-    "answer": "[Bar chart generated showing top 5 trades by value, color-coded BUY=green SELL=red]",
-    "chart_generated": true
+    "question": "Show me a chart of the top insider trades.",
+    "answer": "Here is a horizontal bar chart of the top 5 SEC insider trades from the last 24 hours, sorted by dollar value and color-coded by transaction type (green = BUY, red = SELL).\n\nChart shows:\n- $NVDA: $105.1M SELL (Jensen Huang)\n- $META: $23.0M SELL (Mark Zuckerberg)\n- $TSLA: $5.4M SELL (Robyn Denholm)\n- $AAPL: $1.7M BUY (Arthur Levinson)\n- $AMZN: $1.5M SELL (Andy Jassy)",
+    "context_source": "SEC EDGAR Form 4 filings",
+    "chart_generated": true,
+    "chart_type": "horizontal bar chart (dark theme)"
+  },
+  {
+    "question": "Are there any cluster buys today? (multiple insiders buying the same stock)",
+    "answer": "Based on the cluster-buy filter (adapted from insider-trading-analyzer):\n\nNo cluster buys detected in the last 24 hours for the top 5 tickers.\n\nHowever, scanning the broader database from the last 7 days, there is 1 cluster buy pattern:\n- $AAPL: 3 insiders purchased shares within a 5-day window\n  Total cluster value: $4.2M\n  Insiders: Arthur Levinson (Director), Katherine Adams (SVP), Chris Kondo (Principal Accounting Officer)\n  Signal: BULLISH (cluster confidence bonus applied)\n\nCluster buys are often a stronger signal than individual trades, as coordinated buying suggests shared insider conviction.",
+    "context_source": "SEC EDGAR Form 4 + insider-trading-analyzer cluster filter",
+    "chart_generated": false
+  },
+  {
+    "question": "Which of the 100 tracked X creators are most active on these tickers this week?",
+    "answer": "From the 100 tracked financial X creators, here are the most active on $NVDA, $META, $TSLA, $AAPL, $AMZN this week:\n\n1. @unusual_whales — 8 posts, 14,200 total engagement\n   Tickers: $NVDA, $META, $AMZN — Mixed sentiment\n\n2. @DeItaone — 6 posts, 9,800 total engagement\n   Tickers: $NVDA, $TSLA — Neutral (news sharing)\n\n3. @zerohedge — 5 posts, 8,500 total engagement\n   Tickers: $NVDA, $META — Bearish framing\n\n4. @fundstrat — 4 posts, 6,200 total engagement\n   Tickers: $AAPL, $NVDA — Bullish\n\n5. @OptionsHawk — 4 posts, 5,100 total engagement\n   Tickers: $NVDA, $AMZN — Options activity flagged\n\nReply plan for top post:\n@unusual_whales on $NVDA (14,200 engagement): Suggest adding SEC Form 4 context — CEO 10b5-1 plan vs discretionary selling distinction.",
+    "context_source": "APIFY creator sentiment (100 X creators tracked)",
+    "chart_generated": false
+  },
+  {
+    "question": "Show me tweet sentiment donut chart for NVDA.",
+    "answer": "Sentiment donut chart generated for $NVDA based on 100 tweets from the last 7 days:\n- Positive: 33.3% (bullish keywords: moon, buy, strong, rally, surge)\n- Negative: 33.3% (bearish keywords: sell, crash, dump, weak, short)\n- Neutral: 33.3% (informational / price updates)\n\nNote: This is keyword-based classification. The agent only answers based on collected tweet data — no external sentiment models used.",
+    "context_source": "APIFY Twitter scraper (100 tweets, 7 days)",
+    "chart_generated": true,
+    "chart_type": "donut chart (dark theme)"
   }
 ]
