@@ -1,8 +1,6 @@
 """
 Gradio chatbot UI for the CrowdWisdomTrading RAG system.
-Allows users to chat with the insider trading + social sentiment data.
 """
-import logging
 import sys
 import io
 from pathlib import Path
@@ -17,135 +15,97 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 import gradio as gr
 from rag.indexer import RAGIndexer
 
-logger = logging.getLogger(__name__)
-
-# Initialize RAG
+# Initialize RAG once at startup
 indexer = RAGIndexer()
+sec_col = indexer.client.get_or_create_collection("sec_insider_trades")
+tweet_col = indexer.client.get_or_create_collection("tweets")
 
 
-def chat_with_rag(user_message: str, history: list) -> str:
+def chat(message: str, history: list) -> str:
     """
-    Process user message through RAG retrieval and return answer.
-
-    Args:
-        user_message: The user's question
-        history: Chat history (for context, if needed)
-
-    Returns:
-        Response grounded in SEC + tweet data
+    RAG chatbot function — Gradio 6 requires (message, history) signature.
+    Retrieves from ChromaDB and returns answers grounded in the data.
     """
-    if not user_message.strip():
-        return "Please ask a question about the insider trades or social sentiment."
+    if not message.strip():
+        return "Please ask a question about insider trades or social sentiment."
 
-    # Retrieve from both collections
-    sec_col = indexer.client.get_or_create_collection("sec_insider_trades")
-    tweet_col = indexer.client.get_or_create_collection("tweets")
+    # Semantic retrieval from both collections
+    sec_results = sec_col.query(query_texts=[message], n_results=3)
+    tweet_results = tweet_col.query(query_texts=[message], n_results=3)
 
-    sec_results = sec_col.query(query_texts=[user_message], n_results=3)
-    tweet_results = tweet_col.query(query_texts=[user_message], n_results=3)
+    sec_docs = sec_results["documents"][0] if sec_results["documents"] else []
+    tweet_docs = tweet_results["documents"][0] if tweet_results["documents"] else []
+    sec_meta = sec_results["metadatas"][0] if sec_results["metadatas"] else []
+    tweet_meta = tweet_results["metadatas"][0] if tweet_results["metadatas"] else []
 
-    sec_docs = sec_results['documents'][0] if sec_results['documents'] else []
-    tweet_docs = tweet_results['documents'][0] if tweet_results['documents'] else []
-
-    sec_metadata = sec_results['metadatas'][0] if sec_results['metadatas'] else []
-    tweet_metadata = tweet_results['metadatas'][0] if tweet_results['metadatas'] else []
-
-    # Build response (plain text only)
-    response_parts = []
+    parts = []
 
     if sec_docs:
-        response_parts.append("SEC INSIDER TRADES:")
-        for i, (doc, meta) in enumerate(zip(sec_docs, sec_metadata), 1):
-            ticker = meta.get('ticker', 'N/A')
-            value = meta.get('total_value', 0)
-            value_str = "${:,.0f}".format(value) if value else "unknown"
-            response_parts.append("")
-            response_parts.append("{}. {} ({})".format(i, ticker, value_str))
-            response_parts.append("   {}".format(doc[:180]))
+        parts.append("SEC INSIDER TRADES (from EDGAR Form 4):")
+        for i, (doc, meta) in enumerate(zip(sec_docs, sec_meta), 1):
+            ticker = meta.get("ticker", "N/A")
+            value = meta.get("total_value", 0)
+            insider = meta.get("insider_name", "Unknown")
+            tx_type = meta.get("transaction_type", "")
+            date = meta.get("transaction_date", "")
+            parts.append(
+                "\n{}. {} | {} | {} | ${:,.0f} | {}".format(
+                    i, ticker, insider, tx_type, value, date
+                )
+            )
+            parts.append("   " + doc[:180])
 
     if tweet_docs:
-        response_parts.append("")
-        response_parts.append("SOCIAL SENTIMENT (X/TWITTER):")
-        for i, (doc, meta) in enumerate(zip(tweet_docs, tweet_metadata), 1):
-            author = meta.get('author', 'unknown')
-            likes = meta.get('likes', 0)
-            response_parts.append("")
-            response_parts.append("{}. @{} ({} likes)".format(i, author, likes))
-            response_parts.append("   {}".format(doc[:180]))
-
-    if not sec_docs and not tweet_docs:
-        response_parts.append("No matching data found. Try asking about CRWV, NTRA, or SYRE.")
-
-    return "\n".join(response_parts)
-
-
-def build_ui():
-    """Build and return the Gradio interface."""
-    with gr.Blocks(title="CrowdWisdomTrading RAG Chatbot", theme=gr.themes.Soft()) as demo:
-        gr.Markdown("""
-        # CrowdWisdomTrading Insider Intelligence Chatbot
-
-        Chat with live SEC Form 4 insider trading data + social sentiment from X/Twitter.
-
-        **Data Status:**
-        - SEC Trades: 5 live form 4 filings (last 24h)
-        - Tweets: 227 real posts from X (7 days)
-        - Index: 213 semantic chunks in ChromaDB
-        """)
-
-        with gr.Row():
-            with gr.Column():
-                chatbot = gr.Chatbot(
-                    label="Chat",
-                    height=400,
-                    show_label=True,
+        parts.append("\nSOCIAL SENTIMENT (X / Twitter via APIFY):")
+        for i, (doc, meta) in enumerate(zip(tweet_docs, tweet_meta), 1):
+            author = meta.get("author", "unknown")
+            likes = meta.get("likes", 0)
+            retweets = meta.get("retweets", 0)
+            ticker = meta.get("ticker", "")
+            parts.append(
+                "\n{}. @{} on ${} | {} likes | {} retweets".format(
+                    i, author, ticker, likes, retweets
                 )
+            )
+            parts.append("   " + doc[:180])
 
-        with gr.Row():
-            with gr.Column(scale=9):
-                msg = gr.Textbox(
-                    label="Ask about insider trades or social sentiment",
-                    placeholder="e.g., What insider trades happened in CRWV? Who is talking about NTRA?",
-                    lines=2,
-                )
-            with gr.Column(scale=1):
-                submit_btn = gr.Button("Send", size="lg")
+    if not parts:
+        return "No matching data found in the database. Try asking about CRWV, NTRA, or SYRE."
 
-        # Example questions
-        gr.Examples(
-            examples=[
-                "What major insider trades happened in CRWV?",
-                "Who are the top traders discussing these stocks?",
-                "What do social media users think about NTRA?",
-                "Show me recent activity in SYRE",
-                "Which insider sold the most shares?",
-            ],
-            inputs=msg,
-            label="Example Questions",
-        )
-
-        # Chat logic
-        def respond(message, chat_history):
-            if not message.strip():
-                return "", chat_history
-
-            bot_message = chat_with_rag(message, chat_history)
-            # Gradio Chatbot expects (user_message, bot_message) tuples
-            chat_history.append((message, bot_message))
-            return "", chat_history
-
-        submit_btn.click(respond, [msg, chatbot], [msg, chatbot], queue=False)
-        msg.submit(respond, [msg, chatbot], [msg, chatbot], queue=False)
-
-    return demo
+    return "\n".join(parts)
 
 
 if __name__ == "__main__":
-    print("\n" + "=" * 70)
-    print("Starting CrowdWisdomTrading RAG Chatbot...")
-    print("=" * 70)
-    print("\nOpen your browser to: http://localhost:7860")
-    print("=" * 70 + "\n")
+    stats = indexer.get_stats()
 
-    demo = build_ui()
-    demo.launch(share=False)
+    demo = gr.ChatInterface(
+        fn=chat,
+        title="CrowdWisdomTrading — Insider Intelligence Chatbot",
+        description=(
+            "Ask questions about **live SEC Form 4 insider trades** and **real X/Twitter sentiment**.\n\n"
+            "Data indexed: **{}** SEC trades | **{}** social posts from X\n\n"
+            "Answers are grounded ONLY in real fetched data — no hallucinations."
+        ).format(
+            stats.get("sec_insider_trades", 0),
+            stats.get("tweets", 0),
+        ),
+        examples=[
+            "What insider trades happened in CRWV?",
+            "What do people on X say about NTRA?",
+            "Which insider sold the most shares recently?",
+            "Show me social sentiment about SYRE",
+            "What is the most recent SEC filing?",
+        ],
+        run_examples_on_click=False,   # prevents auto-run at load time (fixes the error)
+        autofocus=True,
+    )
+
+    print("\n" + "=" * 60)
+    print("CrowdWisdomTrading RAG Chatbot")
+    print("=" * 60)
+    print("SEC chunks:   {}".format(stats.get("sec_insider_trades", 0)))
+    print("Tweet chunks: {}".format(stats.get("tweets", 0)))
+    print("URL:          http://localhost:7860")
+    print("=" * 60 + "\n")
+
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=False)
