@@ -50,25 +50,28 @@ def chat_with_rag(user_message: str, history: list) -> str:
     sec_metadata = sec_results['metadatas'][0] if sec_results['metadatas'] else []
     tweet_metadata = tweet_results['metadatas'][0] if tweet_results['metadatas'] else []
 
-    # Build response
-    response_parts = ["Based on the available data:\n"]
+    # Build response (plain text only)
+    response_parts = []
 
     if sec_docs:
-        response_parts.append("**SEC Insider Trades:**")
+        response_parts.append("SEC INSIDER TRADES:")
         for i, (doc, meta) in enumerate(zip(sec_docs, sec_metadata), 1):
             ticker = meta.get('ticker', 'N/A')
             value = meta.get('total_value', 0)
-            value_str = f"${value:,.0f}" if value else "unknown"
-            response_parts.append(f"\n{i}. {doc[:200]}...")
-            response_parts.append(f"   (Value: {value_str})")
+            value_str = "${:,.0f}".format(value) if value else "unknown"
+            response_parts.append("")
+            response_parts.append("{}. {} ({})".format(i, ticker, value_str))
+            response_parts.append("   {}".format(doc[:180]))
 
     if tweet_docs:
-        response_parts.append("\n\n**Social Sentiment (X/Twitter):**")
+        response_parts.append("")
+        response_parts.append("SOCIAL SENTIMENT (X/TWITTER):")
         for i, (doc, meta) in enumerate(zip(tweet_docs, tweet_metadata), 1):
             author = meta.get('author', 'unknown')
             likes = meta.get('likes', 0)
-            response_parts.append(f"\n{i}. @{author}: {doc[:180]}...")
-            response_parts.append(f"   (Engagement: {likes} likes)")
+            response_parts.append("")
+            response_parts.append("{}. @{} ({} likes)".format(i, author, likes))
+            response_parts.append("   {}".format(doc[:180]))
 
     if not sec_docs and not tweet_docs:
         response_parts.append("No matching data found. Try asking about CRWV, NTRA, or SYRE.")
@@ -123,12 +126,16 @@ def build_ui():
 
         # Chat logic
         def respond(message, chat_history):
+            if not message.strip():
+                return "", chat_history
+
             bot_message = chat_with_rag(message, chat_history)
+            # Gradio Chatbot expects (user_message, bot_message) tuples
             chat_history.append((message, bot_message))
             return "", chat_history
 
-        submit_btn.click(respond, [msg, chatbot], [msg, chatbot])
-        msg.submit(respond, [msg, chatbot], [msg, chatbot])
+        submit_btn.click(respond, [msg, chatbot], [msg, chatbot], queue=False)
+        msg.submit(respond, [msg, chatbot], [msg, chatbot], queue=False)
 
     return demo
 
