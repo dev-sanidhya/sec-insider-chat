@@ -57,7 +57,18 @@ class RAGIndexer:
         collection = self._get_or_create_collection(SEC_COLLECTION)
 
         documents, metadatas, ids = [], [], []
+        seen_ids = set()  # Deduplicate within this batch
+
         for i, trade in enumerate(trades):
+            uid = f"sec_{trade.get('ticker','')}_{trade.get('insider_name','')}_{trade.get('transaction_date','')}"
+            uid = uid.replace(" ", "_").replace("/", "-")[:100] + f"_{i}"
+
+            # Skip duplicates within this batch
+            if uid in seen_ids:
+                logger.debug(f"Skipping duplicate SEC trade ID: {uid}")
+                continue
+            seen_ids.add(uid)
+
             doc_text = self._sec_trade_to_text(trade)
             meta = {
                 "ticker": trade.get("ticker", ""),
@@ -73,17 +84,15 @@ class RAGIndexer:
                 "data_type": "sec_trade",
                 "indexed_at": datetime.utcnow().isoformat(),
             }
-            uid = f"sec_{trade.get('ticker','')}_{trade.get('insider_name','')}_{trade.get('transaction_date','')}"
-            uid = uid.replace(" ", "_").replace("/", "-")[:100] + f"_{i}"
 
             documents.append(doc_text)
             metadatas.append(meta)
             ids.append(uid)
 
         if documents:
-            # Upsert to avoid duplicates on re-index
+            # Upsert to update existing records and add new ones
             collection.upsert(documents=documents, metadatas=metadatas, ids=ids)
-            logger.info(f"Indexed {len(documents)} SEC trade chunks")
+            logger.info(f"Indexed {len(documents)} SEC trade chunks (deduped {len(trades) - len(documents)} duplicates)")
 
         return len(documents)
 
@@ -114,7 +123,17 @@ class RAGIndexer:
         total = 0
         for ticker, tweets in tweet_data.items():
             documents, metadatas, ids = [], [], []
+            seen_ids = set()  # Deduplicate within this batch
+
             for i, tweet in enumerate(tweets):
+                uid = f"tweet_{ticker}_{tweet.get('id', i)}"[:100]
+
+                # Skip duplicates within this batch
+                if uid in seen_ids:
+                    logger.debug(f"Skipping duplicate tweet ID: {uid}")
+                    continue
+                seen_ids.add(uid)
+
                 doc_text = self._tweet_to_text(tweet, ticker)
                 meta = {
                     "ticker": ticker,
@@ -127,7 +146,6 @@ class RAGIndexer:
                     "data_type": "tweet",
                     "indexed_at": datetime.utcnow().isoformat(),
                 }
-                uid = f"tweet_{ticker}_{tweet.get('id', i)}"[:100]
 
                 documents.append(doc_text)
                 metadatas.append(meta)
@@ -135,7 +153,7 @@ class RAGIndexer:
 
             if documents:
                 collection.upsert(documents=documents, metadatas=metadatas, ids=ids)
-                logger.info(f"Indexed {len(documents)} tweets for ${ticker}")
+                logger.info(f"Indexed {len(documents)} tweets for ${ticker} (deduped {len(tweets) - len(documents)} duplicates)")
                 total += len(documents)
 
         return total
