@@ -19,8 +19,8 @@ SEC_EDGAR_BASE = "https://data.sec.gov"
 SEC_EDGAR_FULL_TEXT = "https://efts.sec.gov/LATEST/search-index"
 SEC_FORM4_RSS = "https://www.sec.gov/cgi-bin/browse-edgar"
 
-# APIFY actor for Twitter/X scraping (free with platform credits)
-APIFY_TWITTER_ACTOR = "web.harvester/easy-twitter-search-scraper"
+# APIFY actor for Twitter/X scraping — pay-per-result ($0.25/1000 tweets), works with free $5 credit
+APIFY_TWITTER_ACTOR = "kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest"
 
 # RAG settings
 CHROMA_DB_PATH = os.path.join(os.path.dirname(__file__), "data", "chroma_db")
