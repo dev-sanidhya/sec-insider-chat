@@ -1,97 +1,2748 @@
 {
-  "source": "reddit",
-  "creators_tracked": 2,
-  "subreddits_searched": [
-    "stocks",
-    "wallstreetbets",
-    "investing",
-    "StockMarket",
-    "options",
-    "SecurityAnalysis",
-    "Daytrading",
-    "ValueInvesting",
-    "pennystocks",
-    "finance"
-  ],
+  "source": "twitter",
+  "creators_tracked": 90,
   "creator_tweets": {
-    "CRWV": [
+    "NTRA": [
       {
-        "id": "1s7u9kt",
-        "ticker": "CRWV",
-        "author": "STBWB",
-        "text": "But the dip they said, this is the bottom they said. Should I put a stop loss or nah?",
-        "created_at": "2026-03-30T15:45:54+00:00",
-        "likes": 149,
-        "retweets": 93,
-        "url": "https://reddit.com/r/wallstreetbets/comments/1s7u9kt/but_the_dip_they_said_this_is_the_bottom_they_said/",
-        "engagement": 335,
+        "id": "2040538949052223905",
+        "ticker": "NTRA",
+        "author": "midwit_capital",
+        "text": "$PSNL: MRD will reshape cancer management. Early movers like $NTRA have built +20B businesses in the field already while market penetration is still in the single digits. Personalis now coming to market with a better product and a de-risked platform. Adjacent upside potential from mRNA based cancer vaccines & data licensing from their partners.",
+        "created_at": "Sat Apr 04 21:16:11 +0000 2026",
+        "likes": 5,
+        "retweets": 0,
+        "url": "https://x.com/midwit_capital/status/2040538949052223905",
+        "engagement": 5,
         "sentiment": "neutral",
-        "source": "reddit",
-        "subreddit": "wallstreetbets"
+        "source": "twitter"
       },
       {
-        "id": "1s68p8i",
-        "ticker": "CRWV",
-        "author": "HeavyPurpleBallsack",
-        "text": "The current market meltdown and how to navigate it.. &amp;#x200B;\n\nmy positions \n\n\\-short SLV 79.71/oz (closing at 50-55/oz)\n\n\\-short CRWV @101 (closing at $0-20)\n\n\\-short CVNA @382 ( don't touch. risky a lot of moving parts to this stock, but insider are all selling after short reports came out)\n\n\\-short TSLA @386 (overall postive on tsla but valuation compression needs to happen first, will turn around and buy eventually)\n\nEdit: I forgot I have calls on the VIX with a strike price breakeven of",
-        "created_at": "2026-03-28T18:53:56+00:00",
-        "likes": 473,
-        "retweets": 403,
-        "url": "https://reddit.com/r/wallstreetbets/comments/1s68p8i/the_current_market_meltdown_and_how_to_navigate_it/",
-        "engagement": 1279,
+        "id": "2040118705208922591",
+        "ticker": "NTRA",
+        "author": "0bAgLCuOMfojw0b",
+        "text": "$NTRA Weekly. Strong bounce after a 1yr breakout retest.   Druck's largest position. https://t.co/vHSc33AvjP",
+        "created_at": "Fri Apr 03 17:26:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/0bAgLCuOMfojw0b/status/2040118705208922591",
+        "engagement": 0,
         "sentiment": "neutral",
-        "source": "reddit",
-        "subreddit": "wallstreetbets"
+        "source": "twitter"
+      },
+      {
+        "id": "2040106749232062920",
+        "ticker": "NTRA",
+        "author": "alphacharts",
+        "text": "$NTRA Weekly. Strong bounce after a 1yr breakout retest.   Druck's largest position. https://t.co/BoLrYImYFN",
+        "created_at": "Fri Apr 03 16:38:47 +0000 2026",
+        "likes": 14,
+        "retweets": 2,
+        "url": "https://x.com/alphacharts/status/2040106749232062920",
+        "engagement": 18,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039685822941909031",
+        "ticker": "NTRA",
+        "author": "TohJah7809",
+        "text": "Genomics testing centre in Singapore \ud83c\uddf8\ud83c\uddec: testing for precision medicine  FYI $ARKG $LH $NTRA $TEM $ARKG $PACB $TWST  \ud83e\udd7c\ud83d\udd2c\ud83e\uddeb\ud83e\uddea\ud83e\udda0\ud83e\uddec\ud83d\udcbb\ud83e\uddd1\u200d\ud83d\udd2c\ud83e\udd12\ud83c\udf21\ufe0f\ud83d\udc89\ud83e\ude78\ud83e\ude79\ud83d\udc8a\ud83d\ude37\ud83e\ude7a\ud83c\udfe5\u2695\ufe0f\ud83c\udf31\ud83d\udc35\ud83c\udf04",
+        "created_at": "Thu Apr 02 12:46:10 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/TohJah7809/status/2039685822941909031",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039647414488117417",
+        "ticker": "NTRA",
+        "author": "Trade_market9",
+        "text": "$ntra Guys, Don't miss the next move in a few hours.. =&gt;  https://t.co/k3TeKtz0OT",
+        "created_at": "Thu Apr 02 10:13:33 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Trade_market9/status/2039647414488117417",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508199288553712",
+        "ticker": "NTRA",
+        "author": "yaron_gol",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/gBEKmNq2SP  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/rFuNfZSnlY",
+        "created_at": "Thu Apr 02 01:00:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/yaron_gol/status/2039508199288553712",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508192170786931",
+        "ticker": "NTRA",
+        "author": "IKFResearch",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/HoSyQlbyLi  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/JiCon3nLH5",
+        "created_at": "Thu Apr 02 01:00:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/IKFResearch/status/2039508192170786931",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508185623482424",
+        "ticker": "NTRA",
+        "author": "IKF_italy",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/PTLAcm8PlR  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/B7ZbvvmZn1",
+        "created_at": "Thu Apr 02 01:00:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/IKF_italy/status/2039508185623482424",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508177754988614",
+        "ticker": "NTRA",
+        "author": "IKFAdvisors",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/Yhtjcp4C1t  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/LEczjTOuUg",
+        "created_at": "Thu Apr 02 01:00:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/IKFAdvisors/status/2039508177754988614",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508169899024880",
+        "ticker": "NTRA",
+        "author": "iknowfirst",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/DMK4xPDRt8  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/EjbfSWgRgp",
+        "created_at": "Thu Apr 02 01:00:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/iknowfirst/status/2039508169899024880",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508160960983253",
+        "ticker": "NTRA",
+        "author": "i_Know_First",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/Cto0OnF9S5  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/5XTYT0iDlQ",
+        "created_at": "Thu Apr 02 01:00:12 +0000 2026",
+        "likes": 1,
+        "retweets": 1,
+        "url": "https://x.com/i_Know_First/status/2039508160960983253",
+        "engagement": 3,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508146276688187",
+        "ticker": "NTRA",
+        "author": "Cprediction",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/tMw7CGfcW8  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/YEufFgNCjm",
+        "created_at": "Thu Apr 02 01:00:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Cprediction/status/2039508146276688187",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039508138492080266",
+        "ticker": "NTRA",
+        "author": "yaron_gol",
+        "text": "Best Stocks To Buy Based on Genetic Algorithms: Returns up to 152.22% in 1 Year https://t.co/gBEKmNq2SP  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/i3hlgxF25q",
+        "created_at": "Thu Apr 02 01:00:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/yaron_gol/status/2039508138492080266",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039447998514577451",
+        "ticker": "NTRA",
+        "author": "profitelligence",
+        "text": "New 8-K: $NTRA  Natera Appoints New Director Eric Rubin  https://t.co/SrfjRgt9jc https://t.co/iMNpK7SyED",
+        "created_at": "Wed Apr 01 21:01:08 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/profitelligence/status/2039447998514577451",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039440188838224031",
+        "ticker": "NTRA",
+        "author": "USCorpFilings",
+        "text": "$NTRA Board Appointment:  Natera, Inc. appointed Eric Rubin as a new director on March 26, 2026, increasing the board size from ten to eleven members. Dr. Rubin will also serve on the Nominating and Corporate Governance Committee and receive compensation aligned with other non-employee directors.  https://t.co/kBBhUhhqrR",
+        "created_at": "Wed Apr 01 20:30:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/USCorpFilings/status/2039440188838224031",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039438927489101924",
+        "ticker": "NTRA",
+        "author": "VanwardEdge",
+        "text": "Natera, Inc. Appoints Eric Rubin to Board of Directors, Expanding Board Size to Eleven  Expected Stock impact: Slightly Positive  $ntra #stocks #stockmarket",
+        "created_at": "Wed Apr 01 20:25:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/VanwardEdge/status/2039438927489101924",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039437169899503639",
+        "ticker": "NTRA",
+        "author": "WhaleAndState",
+        "text": "$NTRA appointed a new board member \u2014 stock up 1.61% to $203.21. The filing lacks any details on the board member's background or qualifications. Market perception may shift as investor confidence in governance remains uncertain. https://t.co/lpadTfnFrY",
+        "created_at": "Wed Apr 01 20:18:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/WhaleAndState/status/2039437169899503639",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039367761126990057",
+        "ticker": "NTRA",
+        "author": "BrendaWood37016",
+        "text": "\u26a1\ufe0f Natera, Inc. is on the rise! Current price: $199.99, up 7.03%! Load up\u2014this bull run is just getting started! \ud83d\ude80 #NTRA $NTRA",
+        "created_at": "Wed Apr 01 15:42:18 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/BrendaWood37016/status/2039367761126990057",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039322774829683174",
+        "ticker": "NTRA",
+        "author": "TranAshton46458",
+        "text": "Of course the second I sold $NTRA at $199.99, it shoots up 7%! \ud83d\ude02 I\u2019m actually smooth brain\u2014biggest L of 2025! Never selling again (lying) \ud83d\udc80 https://t.co/EfmJiw2YVR",
+        "created_at": "Wed Apr 01 12:43:32 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/TranAshton46458/status/2039322774829683174",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145961218253300",
+        "ticker": "NTRA",
+        "author": "yaron_gol",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/WFPfhe8RXT  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/zhajQyTWkd",
+        "created_at": "Wed Apr 01 01:00:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/yaron_gol/status/2039145961218253300",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145953064542515",
+        "ticker": "NTRA",
+        "author": "IKFResearch",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/h5udjta0YW  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/4qQW0l3oOV",
+        "created_at": "Wed Apr 01 01:00:55 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/IKFResearch/status/2039145953064542515",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145946752123131",
+        "ticker": "NTRA",
+        "author": "IKF_italy",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/M09jejPpZh  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/oVRxhL16PX",
+        "created_at": "Wed Apr 01 01:00:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/IKF_italy/status/2039145946752123131",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145938648780966",
+        "ticker": "NTRA",
+        "author": "IKFAdvisors",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/qYd28WzXJ8  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/q7tvZbvGLH",
+        "created_at": "Wed Apr 01 01:00:51 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/IKFAdvisors/status/2039145938648780966",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145930973172160",
+        "ticker": "NTRA",
+        "author": "iknowfirst",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/kFxUAYFBBg  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/s7wQ0KaaF7",
+        "created_at": "Wed Apr 01 01:00:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/iknowfirst/status/2039145930973172160",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145923620528294",
+        "ticker": "NTRA",
+        "author": "i_Know_First",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/pyNT6HHtSz  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/HhukrAT0nI",
+        "created_at": "Wed Apr 01 01:00:48 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/i_Know_First/status/2039145923620528294",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039145911406735515",
+        "ticker": "NTRA",
+        "author": "Cprediction",
+        "text": "Best Stocks To Buy Based on Pattern Recognition: Returns up to 152.22% in 1 Year https://t.co/SzyymigYlk  $cvna $ngd $ntra $mco $db $dave $ptgx $hlne $shop $ctas #stocks #stockmarket #stocktrading #investing https://t.co/9t91eCMIQc",
+        "created_at": "Wed Apr 01 01:00:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Cprediction/status/2039145911406735515",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039101553550729324",
+        "ticker": "NTRA",
+        "author": "marketwirenews",
+        "text": "$NTRA - SignateraTM MRD Identifies Breast Cancer Patients Who Can Forgo Surgery   News &amp; Disclaimer https://t.co/nxTLdv75sn",
+        "created_at": "Tue Mar 31 22:04:29 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/marketwirenews/status/2039101553550729324",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038957167139496256",
+        "ticker": "NTRA",
+        "author": "TheETFTracker",
+        "text": "Here are the top 10 LARGEST HOLDINGS in the Vista Shares DRUKMacro Distribution ETF $DRKY  This ETF mirrors the top holdings of the private investment firm of Stanley Druckenmiller  1 Natera $NTRA 20.20% 2 Insmed $INSM 10.12% 3 Amazon $AMZN 6.52% 4 Coupang $CPNG 6.27% 5 Woodward $WWD 6.16% 6 Teva Pharmaceutical $TEVA 6.04% 7 Taiwan Semiconductor $TSM 5.55% 8 Google $GOOGL 4.16% 9 Restaurant Brands International $QSR 3.59% 10 MercadoLibre $MELI 3.59%",
+        "created_at": "Tue Mar 31 12:30:45 +0000 2026",
+        "likes": 19,
+        "retweets": 2,
+        "url": "https://x.com/TheETFTracker/status/2038957167139496256",
+        "engagement": 23,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038955125427868160",
+        "ticker": "NTRA",
+        "author": "OpenOutcrier",
+        "text": "$NTRA (+3.6% pre) Natera study suggests Signatera may help some breast cancer patients avoid surgery   https://t.co/QNdONLuXmN",
+        "created_at": "Tue Mar 31 12:22:38 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/OpenOutcrier/status/2038955125427868160",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038954806329413844",
+        "ticker": "NTRA",
+        "author": "Briefingcom",
+        "text": "$NTRA +5.2%",
+        "created_at": "Tue Mar 31 12:21:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Briefingcom/status/2038954806329413844",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038951435510104114",
+        "ticker": "NTRA",
+        "author": "byul_japan",
+        "text": "$NTRA  \u30cd\u30a4\u30c8\u30e9\u3001Signatera\u304c\u4e00\u90e8\u4e73\u304c\u3093\u60a3\u8005\u306e\u5916\u79d1\u624b\u8853\u56de\u907f\u306b\u5f79\u7acb\u3064\u53ef\u80fd\u6027\u3092\u793a\u5506",
+        "created_at": "Tue Mar 31 12:07:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/byul_japan/status/2038951435510104114",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038951431731036576",
+        "ticker": "NTRA",
+        "author": "byul_finance",
+        "text": "$NTRA  Natera study suggests Signatera test may allow some breast cancer patients to avoid surgery",
+        "created_at": "Tue Mar 31 12:07:57 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/byul_finance/status/2038951431731036576",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038951412772872409",
+        "ticker": "NTRA",
+        "author": "byul_korea",
+        "text": "$NTRA  \ub124\ud14c\ub77c \uc5f0\uad6c, Signatera \uac80\uc0ac\uac00 \uc77c\ubd80 \uc720\ubc29\uc554 \ud658\uc790\uc758 \uc218\uc220 \ud68c\ud53c\uc5d0 \ub3c4\uc6c0 \uc904 \uc218 \uc788\uc74c\uc744 \uc2dc\uc0ac",
+        "created_at": "Tue Mar 31 12:07:53 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/byul_korea/status/2038951412772872409",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038951150775607336",
+        "ticker": "NTRA",
+        "author": "Briefingcom",
+        "text": "$NTRA: Natera study suggests Signatera may help some breast cancer patients avoid surgery https://t.co/rcBwmIKwRd",
+        "created_at": "Tue Mar 31 12:06:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Briefingcom/status/2038951150775607336",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038935499256045803",
+        "ticker": "NTRA",
+        "author": "stocknear",
+        "text": "$NTRA Natera shares are trading higher after the company announced a Clinical Cancer Research article showing that Signatera was able to identify older women with early-stage ER+/HER2- breast cancer who can be managed with primary endocrine therapy without surgery.",
+        "created_at": "Tue Mar 31 11:04:39 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/stocknear/status/2038935499256045803",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038934440043311155",
+        "ticker": "NTRA",
+        "author": "UTEX_io",
+        "text": "$NTRA \u2014 Natera's stock is up following the publication of a Clinical Cancer Research article. The study highlighted Signatera's capability to identify elderly women with early-stage ER+/HER2- breast cancer, suggesting these patients could potentially forgo surgery and be treated effectively with primary endocrine therapy.",
+        "created_at": "Tue Mar 31 11:00:26 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/UTEX_io/status/2038934440043311155",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038924781517677004",
+        "ticker": "NTRA",
+        "author": "Trade_market9",
+        "text": "$ntra Guys, Don't miss the next move in a few hours.. =&gt;  https://t.co/k3TeKtz0OT",
+        "created_at": "Tue Mar 31 10:22:03 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Trade_market9/status/2038924781517677004",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038919519943401578",
+        "ticker": "NTRA",
+        "author": "Lycanbull",
+        "text": "$NTRA SignateraTM MRD Identifies Breast Cancer Patients Who Can Forgo Surgery https://t.co/Gre6dCvoEK",
+        "created_at": "Tue Mar 31 10:01:09 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Lycanbull/status/2038919519943401578",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038072294543647168",
+        "ticker": "NTRA",
+        "author": "tweetatmehomie",
+        "text": "@sytses  mrd &gt; $PSNL   $NTRA https://t.co/C29IxZqvBv",
+        "created_at": "Sun Mar 29 01:54:35 +0000 2026",
+        "likes": 9,
+        "retweets": 2,
+        "url": "https://x.com/tweetatmehomie/status/2038072294543647168",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040665063712084217",
+        "ticker": "NTRA",
+        "author": "Belinda14015738",
+        "text": "$INTC $CRWV $APP new alerts have been posted in the last hours- https://t.co/oKDOQwVc8c",
+        "created_at": "Sun Apr 05 05:37:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Belinda14015738/status/2040665063712084217",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040647450856476999",
+        "ticker": "NTRA",
+        "author": "SrinaDavid",
+        "text": "Alerts before spikes and right as big news drops Free discord chatroom:,,,,,,  $CRWV $SOXL $PLTR $AMD Discord Link Here \u27a1\ufe0f https://t.co/IkJFqL98XL https://t.co/89jcI1XrCy",
+        "created_at": "Sun Apr 05 04:27:20 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/SrinaDavid/status/2040647450856476999",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040642869049074004",
+        "ticker": "NTRA",
+        "author": "SrinaDavid",
+        "text": "Best trading community.///,,,,,  $AMZN $CRWV $SOXL $PLTR Discord Link Here \u27a1\ufe0f https://t.co/IkJFqL98XL https://t.co/kqPt8SFcK3",
+        "created_at": "Sun Apr 05 04:09:07 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/SrinaDavid/status/2040642869049074004",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040632036927426683",
+        "ticker": "NTRA",
+        "author": "inverscompu",
+        "text": "FULL IA NO PARA   $CRWV se volo mal +21% y todas acompa\u00f1aron,  Full IA suma sus primeros $1000 usd mientras que Anti IA se mantiene firme con sus $119 usd,   Seguimos monitoreando   Sldos $BBD https://t.co/8YqxeByceR",
+        "created_at": "Sun Apr 05 03:26:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/inverscompu/status/2040632036927426683",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040611432564154636",
+        "ticker": "NTRA",
+        "author": "BlueMoonTrades",
+        "text": "Nobody's talking about what's actually happening with $CRWV \ud83e\uddf5  While retail celebrated the $8.5B financing deal, this is what smart money was quietly doing in the options market:  \ud83d\udd34 20+ put trades. 4 calls. All day.   \ud83d\udd34 $65 puts \u2014 11 consecutive BLOCK orders between 3:36\u20133:41 PM. That's not a hedge. That's a position being built  \ud83d\udd34 $75P sweep \u2014 $102.5K. One trade.  Oh and by the way:   \ud83d\udd34 CEO sold $7.2M in shares last week   \ud83d\udd34 Just walked from a $2B Nvidia-backed Texas data center deal   \ud83d\udd34 $21B i",
+        "created_at": "Sun Apr 05 02:04:12 +0000 2026",
+        "likes": 9,
+        "retweets": 1,
+        "url": "https://x.com/BlueMoonTrades/status/2040611432564154636",
+        "engagement": 11,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040610440150159548",
+        "ticker": "NTRA",
+        "author": "aussiExau",
+        "text": "@HyperAICapital Bro, paper hands move: Poolside couldn\u2019t even spin up a GPU cluster and watched $CRWV and that $2B deal walk. Lmao.",
+        "created_at": "Sun Apr 05 02:00:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/aussiExau/status/2040610440150159548",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040606157375455611",
+        "ticker": "NTRA",
+        "author": "institLPGP",
+        "text": "Within the GPU cloud the answer is Nebius , although in the TPU cloud it\u2019s Fluidstack.  Will be interesting if OAI comes knocking at Nebius\u2019 door bc CoreWeave is\u2026. well CoreWeave  $nbis $crwv",
+        "created_at": "Sun Apr 05 01:43:15 +0000 2026",
+        "likes": 3,
+        "retweets": 0,
+        "url": "https://x.com/institLPGP/status/2040606157375455611",
+        "engagement": 3,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040599891949371801",
+        "ticker": "NTRA",
+        "author": "jwat_5",
+        "text": "@investnplay1 @vishal_better $CRWV and $NBIS in bio \ud83d\ude2d\ud83d\ude2d",
+        "created_at": "Sun Apr 05 01:18:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/jwat_5/status/2040599891949371801",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040596438162248164",
+        "ticker": "NTRA",
+        "author": "1983_alimbek",
+        "text": "@ProblemSniper Here are the analysis results. $AMD $CRWV $NFLX $IBIT \ud83d\udc47",
+        "created_at": "Sun Apr 05 01:04:37 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/1983_alimbek/status/2040596438162248164",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040593933143875631",
+        "ticker": "NTRA",
+        "author": "PaulGould442478",
+        "text": "$OTH Off The Hook Yachts Signs Definitive Agreement to Acquire Bellhart Marine, Creating the Carolinas\u2019 Premier Mega Service &amp; Refit Platform https://t.co/S4zIFblrVP  $NFLX $CRWV $MRVL $PMI $ORCL $AVGO $BBAI $COST $MSTR $QBTS $RGTI $INTC",
+        "created_at": "Sun Apr 05 00:54:40 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/PaulGould442478/status/2040593933143875631",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040592374817333340",
+        "ticker": "NTRA",
+        "author": "GyujinAAIG",
+        "text": "<\uadf8\ub9ac\ub4dc \uc81c\uc57d\uacfc \uc778\ud504\ub77c \uac2d> $IREN $NBIS $CRWV  \uc804\ub825 \uc2dc\uc2a4\ud15c\uc774 \ub370\uc774\ud130\uc13c\ud130 \uc218\uc694\ub97c \uac10\ub2f9\ud558\ub294 \ub2a5\ub825\uc740 \uc5ec\ub7ec \uce35\uc704\uc5d0\uc11c \uc81c\uc57d\uc744 \ubc1b\uace0 \uc788\ub2e4.  \ubbf8\uad6d \uac1c\ubc1c \ud30c\uc774\ud504\ub77c\uc778\uc5d0 \uc2e0\uaddc \uac00\uc2a4 \ubc1c\uc804 85 GW \uc774\uc0c1\uc774 \uc788\uace0 \ud0dc\uc591\uad11, \ud48d\ub825, \uc800\uc7a5 \uc124\ube44\ub3c4 \ube60\ub974\uac8c \uc131\uc7a5\ud558\uace0 \uc788\uc9c0\ub9cc, \uc2e0\uaddc \ubc1c\uc804\uc18c\ub97c \ud5c8\uac00\ubc1b\uace0 \uacc4\ud1b5\uc5d0 \uc5f0\uacc4\ud558\ub294 \ub370 \uac78\ub9ac\ub294 \uc2dc\uac04\uc740 \uc218\uac1c\uc6d4\uc774 \uc544\ub2cc \uc218\ub144 \ub2e8\uc704\ub2e4. PJM\uc744 \ube44\ub86f\ud55c ISO\ub4e4\uc758 \uacc4\ud1b5 \uc5f0\uacc4 \ub300\uae30\uc5f4 \uc801\uccb4\ub294 2,500 GW\ub97c \ucd08\uacfc\ud558\uba70, \uc77c\ubc18\uc801\uc778 \ub300\uae30 \uae30\uac04\uc740 4~7\ub144\uc5d0 \ub2ec\ud55c\ub2e4.  \ubc1c\uc804\uc6d0\uc5d0\uc11c \ub370\uc774\ud130\uc13c\ud130 \ubd80\ud558 \uc911\uc2ec\uc9c0\ub85c \uc804\ub825\uc744 \uc774\ub3d9\uc2dc\ud0a4\ub824\uba74 \uc774\ubbf8 \ub9ce\uc740 \uc9c0\uc5ed\uc5d0\uc11c \ud55c\uacc4 \uc6a9\ub7c9\uc5d0 \uadfc\uc811\ud558\uc5ec \uac00\ub3d9 \uc911\uc778 \uc1a1\uc804 \uc778\ud504\ub77c\uac00 \ud544\uc694\ud558\ub2e4. \uc1a1\uc804 \ud22c\uc790\ub294 \uac00\uc18d\ud654\ub418\uace0 \uc788\uc9c0\ub9cc, \uc2e0\uaddc \uc1a1\uc804\uc120 \uac74\uc124\uc740 \uc218\ub144\uc5d0 \uac78\uce5c \ud5c8\uac00 \uc808\ucc28\uc640 \ud658\uacbd \uac80\ud1a0 \uacfc\uc815\uc744 \uac70\uccd0\uc57c \ud55c\ub2e4.  \ub2e8\uc77c \ub370\uc774\ud130\uc13c\ud130 \ucea0\ud37c\uc2a4\uc5d0 \uc218\ubc31 MW\ub97c \uacf5\uae09\ud558\ub824\uba74 \uc790\uccb4\uc801\uc778 \uacf5\uae09\ub9dd \uc81c\uc57d\uc744 \uc548\uace0 \uc788\ub294 \ubcc0\uc804\uc18c, \ubcc0\uc555\uae30, \ubc30\uc804 \uc124\ube44\uac00 \ud544\uc694\ud558\ub2e4. \ub300\ud615 \uc804\ub825 \ubcc0\uc555\uae30(LPT)\uc758 \ub0a9\uae30\ub294 \ud604\uc7ac 24~36\uac1c\uc6d4\uae4c",
+        "created_at": "Sun Apr 05 00:48:29 +0000 2026",
+        "likes": 9,
+        "retweets": 0,
+        "url": "https://x.com/GyujinAAIG/status/2040592374817333340",
+        "engagement": 9,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040591875971874920",
+        "ticker": "NTRA",
+        "author": "PaulGould442478",
+        "text": "$OTH Off The Hook Yachts Signs Definitive Agreement to Acquire Bellhart Marine, Creating the Carolinas\u2019 Premier Mega Service &amp; Refit Platform https://t.co/S4zIFblrVP  $CRWV $CSAI $XBI $QQQ $MLGO $ICCT $DJT $GRRR $SPY $TSLA $NVDA $WTF $NMAX",
+        "created_at": "Sun Apr 05 00:46:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/PaulGould442478/status/2040591875971874920",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040587734042181802",
+        "ticker": "NTRA",
+        "author": "GyujinAAIG",
+        "text": "$IREN $NBIS $CRWV  \ubbf8\uad6d\uacfc \uc911\uad6d \uac04\uc758 \ubb34\uc5ed\uc804\uc7c1\uc73c\ub85c \uc778\ud574 \uc11c\ubc84 \uc81c\uc870\uc5c5\uccb4\ub4e4\uc740 \uc911\uad6d \ubc16\uc73c\ub85c \uc0dd\uc0b0\uae30\uc9c0\ub97c \uc62e\uae30\uac8c \ub418\uc5c8\uace0, \uadf8 \uacb0\uacfc \ubbf8\uad6d \uae30\uc5c5\ub4e4\uc758 \uc911\uad6d\uc0b0 \uc11c\ubc84 \uc0dd\uc0b0 \uc758\uc874\ub3c4\ub294 \ud06c\uac8c \ub0ae\uc544\uc84c\uc2b5\ub2c8\ub2e4.  \ud558\uc9c0\ub9cc \uc804\ub825 \uc778\ud504\ub77c \uad6c\ucd95\uc5d0 \ud544\uc694\ud55c \uc804\uae30 \uc7a5\ube44 \ubd84\uc57c\uc5d0\uc11c\ub294 \uc5ec\uc804\ud788 \uc911\uad6d\uc774 \uc138\uacc4 \ucd5c\ub300 \uc0dd\uc0b0\uad6d\uc785\ub2c8\ub2e4. \uc774 \ub54c\ubb38\uc5d0 \uc911\uad6d\uc0b0\uc744 \ud3ec\ud568\ud55c \uac01\uc885 \uc804\ub825 \uacf5\uae09 \uc7a5\ube44 \ubd80\uc871 \ud604\uc0c1\uc774, AI \ub370\uc774\ud130\uc13c\ud130 \uc548\ud30e\uc5d0\uc11c \ud544\uc694\ud55c \uc804\ub825 \uc778\ud504\ub77c \uad6c\ucd95\uc744 \ub2a6\ucd94\uba70 \ud504\ub85c\uc81d\ud2b8 \uc77c\uc815 \uc804\ubc18\uc744 \uc9c0\uc5f0\uc2dc\ud0a4\uace0 \uc788\ub2e4\uace0 \ube14\ub8f8\ubc84\uadf8\ub294 \ubcf4\ub3c4\ud588\uc2b5\ub2c8\ub2e4.  AI \uc778\ud504\ub77c\uc5d0 \ub300\ud55c \ud22c\uc790\uac00 \uc804\ub840 \uc5c6\ub294 \uc218\uc900\uc73c\ub85c \ud655\ub300\ub418\uace0 \uc788\uc74c\uc5d0\ub3c4 \ubd88\uad6c\ud558\uace0 \uc54c\ud30c\ubcb3, \uc544\ub9c8\uc874, \uba54\ud0c0, \ub9c8\uc774\ud06c\ub85c\uc18c\ud504\ud2b8\ub294 2026\ub144\uc5d0 AI \uc6a9\ub7c9 \ud655\ub300\ub97c \uc704\ud574 \ucd1d 6,500\uc5b5 \ub2ec\ub7ec \uc774\uc0c1\uc744 \uc9c0\ucd9c\ud560 \uac83\uc73c\ub85c \uc608\uc0c1\ub429\ub2c8\ub2e4. \uc62c\ud574 \ubbf8\uad6d\uc5d0\uc11c \uacc4\ud68d\ub41c \ub370\uc774\ud130\uc13c\ud130 \uac74\uc124 \ud504\ub85c\uc81d\ud2b8\uc758 \uac70\uc758 \uc808\ubc18\uc774 \uc9c0\uc5f0\ub418\uac70\ub098 \ucde8\uc18c\ub420 \uac00\ub2a5\uc131\uc774 \uc788\ub2e4\uace0 \ube14\ub8f8\ubc84\uadf8\ub294 \uc804\ud588\uc2b5\ub2c8\ub2e4.  \uc774\ub7ec\ud55c \ucc28\uc9c8\uc758 \uc8fc\uc694 \uc6d0\uc778 \uc911 \ud558\ub098\ub294 \ubcc0\uc555\uae30, \uc2a4\uc704\uce58\uae30\uc5b4, \ubc30\ud130\ub9ac \uac19\uc740 \ud575\uc2ec \uc804\ub825 \ubd80\ud488\uc758 ",
+        "created_at": "Sun Apr 05 00:30:02 +0000 2026",
+        "likes": 11,
+        "retweets": 0,
+        "url": "https://x.com/GyujinAAIG/status/2040587734042181802",
+        "engagement": 11,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040582977541800422",
+        "ticker": "NTRA",
+        "author": "zavakrayn",
+        "text": "@CaesarCapitalz I can\u2019t convince you.  imo you have $crwv and $nbis as your two big boy pure plays there. and Nebius has less debt and is more vertically integrated.",
+        "created_at": "Sun Apr 05 00:11:08 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/zavakrayn/status/2040582977541800422",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040568440629461276",
+        "ticker": "NTRA",
+        "author": "Biotech_FC",
+        "text": "I\u2019m a buyer of $GLXY at these levels. I love that I can buy both the data center and crypto business at this valuation. When crypto turns around this will take off. When $CRWV starts paying them nearly 1 billion a year people will recognize their data center business.",
+        "created_at": "Sat Apr 04 23:13:22 +0000 2026",
+        "likes": 11,
+        "retweets": 1,
+        "url": "https://x.com/Biotech_FC/status/2040568440629461276",
+        "engagement": 13,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040563792325804281",
+        "ticker": "NTRA",
+        "author": "MultibaggAIHQ",
+        "text": "$CRWV PHILIPPE LAFFONT TRIMS STAKE IN CLOUD-GPU SPECIALIST COREWEAVE (CRWV), REDEPLOYS PROCEEDS INTO A LARGER ESTABLISHED AI SEMICONDUCTOR COMPANY, SIGNALS REDUCED CONVICTION IN CRWV",
+        "created_at": "Sat Apr 04 22:54:54 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/MultibaggAIHQ/status/2040563792325804281",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040558893248745980",
+        "ticker": "NTRA",
+        "author": "ProblemSniper",
+        "text": "January: $AMD 3 to 30 \ud83d\ude80 February: $CRWV 1.15 to 5 \ud83d\ude80 March:  $NFLX 0.88 to 16 \ud83d\udca5  April: $IBIT 0.7 to 0.05 (currently) \u274c  Failed trade. I will post a video why I entered it and why I would take a setup like this again if I ever see it.   We have to work harder for a banger again. Will choose something that can be macro resilient. \ud83d\ude2d",
+        "created_at": "Sat Apr 04 22:35:26 +0000 2026",
+        "likes": 55,
+        "retweets": 1,
+        "url": "https://x.com/ProblemSniper/status/2040558893248745980",
+        "engagement": 57,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040554896991162392",
+        "ticker": "NTRA",
+        "author": "ousvyatsky",
+        "text": "$CRWV new debt facility: beyond lower interest rate and $8.5 billion capacity.  My new piece: covenants and conditions are shifting from focusing on \"how much are GPUs worth down the road\" to operational &amp; cost control.  https://t.co/se4psBGHMs",
+        "created_at": "Sat Apr 04 22:19:33 +0000 2026",
+        "likes": 2,
+        "retweets": 0,
+        "url": "https://x.com/ousvyatsky/status/2040554896991162392",
+        "engagement": 2,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040549567058395444",
+        "ticker": "NTRA",
+        "author": "adhikansh53",
+        "text": "@TheMarket_Monk Iren has no distinguishing factor from the leaders unlike $NBIS, $CRWV, and $APLD",
+        "created_at": "Sat Apr 04 21:58:23 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/adhikansh53/status/2040549567058395444",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040540507970154995",
+        "ticker": "NTRA",
+        "author": "_Sgr_A_Star",
+        "text": "$IREN $NBIS $CRWV $ORCL  OH OH ! AI bubble burst! lol https://t.co/Vl7ALn2ZzH",
+        "created_at": "Sat Apr 04 21:22:23 +0000 2026",
+        "likes": 38,
+        "retweets": 5,
+        "url": "https://x.com/_Sgr_A_Star/status/2040540507970154995",
+        "engagement": 48,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040516074421055912",
+        "ticker": "NTRA",
+        "author": "andrawesbahou",
+        "text": "The real reason $CRWV Coreweave canceled poolside contract is because they promised them $3.13/GPU/hr on 41,000 GB300s, on a mere 2 year contract. A very cheap and poorly hedged deal, made in October, before supply crunch. Any excuse to cancel is great news for Coreweave. Source: @ComputeDesk",
+        "created_at": "Sat Apr 04 19:45:17 +0000 2026",
+        "likes": 12,
+        "retweets": 5,
+        "url": "https://x.com/andrawesbahou/status/2040516074421055912",
+        "engagement": 22,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040514034022183126",
+        "ticker": "NTRA",
+        "author": "ScoProfits",
+        "text": "$Crwv ohhhh? https://t.co/CW21vF1v0c",
+        "created_at": "Sat Apr 04 19:37:11 +0000 2026",
+        "likes": 3,
+        "retweets": 0,
+        "url": "https://x.com/ScoProfits/status/2040514034022183126",
+        "engagement": 3,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040510555262222510",
+        "ticker": "NTRA",
+        "author": "Stonefoxcapital",
+        "text": "$CRWV believe CoreWeave only had 250MW lined up with  an option for another 500MW.  The initial 2 GW wasn\u2019t going to CoreWeave.",
+        "created_at": "Sat Apr 04 19:23:21 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Stonefoxcapital/status/2040510555262222510",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040501429996237101",
+        "ticker": "NTRA",
+        "author": "Belinda14015738",
+        "text": "$INTC $CRWV $APP new alerts have been posted in the last hours-.. https://t.co/oKDOQwVc8c",
+        "created_at": "Sat Apr 04 18:47:06 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Belinda14015738/status/2040501429996237101",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040497792846823453",
+        "ticker": "NTRA",
+        "author": "BullsGujarat",
+        "text": "@HyperAICapital It\u2019s bullish for $crwv",
+        "created_at": "Sat Apr 04 18:32:39 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/BullsGujarat/status/2040497792846823453",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040495877090075029",
+        "ticker": "NTRA",
+        "author": "BastianelliLore",
+        "text": "You all discover in 10 years maybe .. I don\u2019t think $NBIS will be profitable in the short or medium term. I use gross margin now, I will compare it with $CRWV (similar level) and $IREN (mixed with bitcoin so far so not comparable) to have an idea\u2026 maybe CFO in a few quarter will be a valid data point",
+        "created_at": "Sat Apr 04 18:25:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/BastianelliLore/status/2040495877090075029",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040489577048318390",
+        "ticker": "NTRA",
+        "author": "BonkDaCarnivore",
+        "text": "I don't know who needs to hear it, but any of you who buy these multi-leveraged single-ticker \"ETFs\" aren't investing.  You aren't even trading.  You're merely gambling.  And you shouldn't be in the markets.  There's not a lot I'm permitted say about $CRWV because of a professional entanglement I have and a certain amount of non-public information that finds its way to me, but in no way should people be buying EOD-resolving leveraged funds centered around it  Disclosure:  I have significant $CRW",
+        "created_at": "Sat Apr 04 18:00:00 +0000 2026",
+        "likes": 7,
+        "retweets": 0,
+        "url": "https://x.com/BonkDaCarnivore/status/2040489577048318390",
+        "engagement": 7,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040487896122302725",
+        "ticker": "NTRA",
+        "author": "EmilyCa00774821",
+        "text": "$CRWV new alerts have been posted in the last hours-.. https://t.co/wnOPirqD21",
+        "created_at": "Sat Apr 04 17:53:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/EmilyCa00774821/status/2040487896122302725",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040482091868070188",
+        "ticker": "NTRA",
+        "author": "Blue_1Trades",
+        "text": "@MathiasTheus @Sean__James $crwv there I believe",
+        "created_at": "Sat Apr 04 17:30:15 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Blue_1Trades/status/2040482091868070188",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040478999520915594",
+        "ticker": "NTRA",
+        "author": "JD4289",
+        "text": "$crwv perhaps they will need $apld now after walking away from their other landlord.  $bw flywheel into $rily?",
+        "created_at": "Sat Apr 04 17:17:58 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/JD4289/status/2040478999520915594",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040473486255120656",
+        "ticker": "NTRA",
+        "author": "YeWays1",
+        "text": "@CaesarCapitalz @FilipsMoneyX Why? I can say the same thing, and everyone can provide their own facts. People really need to stop these pointless battles. For what purpose? Are we going to add $ORCL and $CRWV to further fuel this mess? I suggest starting with peaceful posts so everyone can follow suit.",
+        "created_at": "Sat Apr 04 16:56:03 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/YeWays1/status/2040473486255120656",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040472716432621575",
+        "ticker": "NTRA",
+        "author": "valderramarte",
+        "text": "$CRWV slips -0.29% after hours to $82.24, edging lower in the data center and cloud infrastructure space. AI data center stocks see mild profit-taking. #AI #CloudInfrastructure #DataCenter #Tech https://t.co/wKkvjPzEd8",
+        "created_at": "Sat Apr 04 16:53:00 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/valderramarte/status/2040472716432621575",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040466027306193211",
+        "ticker": "NTRA",
+        "author": "Sean__James",
+        "text": "@TheFinGodFather Correct. Market completely ignoring $IREN 85% ebitda margin whilst $NBIS and $CRWV guiding ~40%. How this plays out is inevitable.",
+        "created_at": "Sat Apr 04 16:26:25 +0000 2026",
+        "likes": 2,
+        "retweets": 0,
+        "url": "https://x.com/Sean__James/status/2040466027306193211",
+        "engagement": 2,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040465349582455043",
+        "ticker": "NTRA",
+        "author": "Rino868",
+        "text": "@oguzerkan Long all except $crwv  Maybe time to buy https://t.co/QhsFurYm8D",
+        "created_at": "Sat Apr 04 16:23:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Rino868/status/2040465349582455043",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040453469803606320",
+        "ticker": "NTRA",
+        "author": "OptionsSurgery",
+        "text": "@CaesarCapitalz @marksotoges Ask @grok and you would go for $CRWV",
+        "created_at": "Sat Apr 04 15:36:31 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/OptionsSurgery/status/2040453469803606320",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040445756390228296",
+        "ticker": "NTRA",
+        "author": "grok",
+        "text": "Thanks for the tag!   Diving into these AI infrastructure names, $CRWV still looks like the strongest risk/reward at current levels. Its GPU cloud scale, hyperscaler deals, and AI training demand give it clear upside as compute needs explode\u2014trading well off ATHs now.  $NBIS is a close second with solid HPC exposure. Others like $IREN and $CIFR have mining roots that add bitcoin leverage but less pure AI moat.   All volatile\u2014DYOR, not advice.",
+        "created_at": "Sat Apr 04 15:05:52 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/grok/status/2040445756390228296",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040445286372585723",
+        "ticker": "NTRA",
+        "author": "LEAPTRADER_",
+        "text": "The AI infrastructure race isn\u2019t just about who has the most GPUs\u2026it\u2019s about who can deliver power-dense, scalable compute at the lowest effective cost while keeping up with exploding demand for training and inference.  $CRWV (CoreWeave) is the pure-play AI cloud leader here. They run a specialized platform with proprietary software for orchestration, storage acceleration, and Kubernetes that makes massive GPU clusters actually usable at hyperscale.   Their backlog is enormous, and they\u2019re one o",
+        "created_at": "Sat Apr 04 15:04:00 +0000 2026",
+        "likes": 11,
+        "retweets": 3,
+        "url": "https://x.com/LEAPTRADER_/status/2040445286372585723",
+        "engagement": 17,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040445252352286948",
+        "ticker": "NTRA",
+        "author": "HaydnBCole",
+        "text": "@thekingBones @CaesarCapitalz $CRWV was back on schedule as of Q4 earnings\u2026",
+        "created_at": "Sat Apr 04 15:03:52 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/HaydnBCole/status/2040445252352286948",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040436878848209148",
+        "ticker": "NTRA",
+        "author": "JohnLau1194508",
+        "text": "@MikePLTR Maybe you read too many IREN bearish posts and X just recommends you more. Try $CRWV $CIFR $WULF $CORZ $APLD to diversify your feed",
+        "created_at": "Sat Apr 04 14:30:36 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/JohnLau1194508/status/2040436878848209148",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040431827479941548",
+        "ticker": "NTRA",
+        "author": "thekingBones",
+        "text": "You will regret it pretty soon. You don\u2019t sell a stock when the market can\u2019t be more pessimistic about it.   If you are afraid of that $6B ATM, just analyze deeply the dilution $NBIS is doing and will have to do, and watch all peers getting delays on their execution (See $CRWV). If you are afraid of it, you probably haven\u2019t done enough study on the company and don\u2019t understand how a small cap scales with a clean balance sheet.  But whatever, I am not your financial advisor.",
+        "created_at": "Sat Apr 04 14:10:31 +0000 2026",
+        "likes": 2,
+        "retweets": 0,
+        "url": "https://x.com/thekingBones/status/2040431827479941548",
+        "engagement": 2,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040427197211521146",
+        "ticker": "NTRA",
+        "author": "makemoneymoney6",
+        "text": "$CRWV - Insider sales in the last week - golly, I\u2019m sure some of these are \u201cpre-arranged sales\u201d but wow, how much are these guys paying themselves? https://t.co/Z2HlU1z7KE",
+        "created_at": "Sat Apr 04 13:52:07 +0000 2026",
+        "likes": 3,
+        "retweets": 0,
+        "url": "https://x.com/makemoneymoney6/status/2040427197211521146",
+        "engagement": 3,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040418064299327716",
+        "ticker": "NTRA",
+        "author": "Belinda14015738",
+        "text": "$INTC $CRWV $APP new alerts have been posted in the last hours-. https://t.co/oKDOQwVc8c",
+        "created_at": "Sat Apr 04 13:15:50 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Belinda14015738/status/2040418064299327716",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040414649473019997",
+        "ticker": "NTRA",
+        "author": "merkapresearch",
+        "text": "CoreWeave's Financing and Insider Activity \u00b7 $CRWV  Recent headlines reveal mixed sentiments around CoreWeave, highlighting concerns over insider selling juxtaposed with optimism about its significant financing deal.  https://t.co/wdpabEm77x  Educational / informational only \u2014 not investment advice. https://t.co/dnW5aoH5JI",
+        "created_at": "Sat Apr 04 13:02:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/merkapresearch/status/2040414649473019997",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040406854207950977",
+        "ticker": "NTRA",
+        "author": "makemoneymoney6",
+        "text": "@HyperAICapital Hold on, $CRWV stock got decimated last year after noting a slip in timelines for delivery (on their own DC)\u2026it\u2019s not like they have backup delivery options. The first phase was supposed to be online late 2026. 250MW. the delay must have been substantial to walk away",
+        "created_at": "Sat Apr 04 12:31:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/makemoneymoney6/status/2040406854207950977",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040384182350643218",
+        "ticker": "NTRA",
+        "author": "nsideralert",
+        "text": "\ud83d\udd34 $CRWV: 40 insider trades this week  \ud83d\udcc8 0 buys \ud83d\udcc9 33 sells  Sentiment: Bearish",
+        "created_at": "Sat Apr 04 11:01:12 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/nsideralert/status/2040384182350643218",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040381465742180549",
+        "ticker": "NTRA",
+        "author": "Russell71547413",
+        "text": "Best trading community./// $GOOGL $AMZN $CRWV $SOXL Discord Link Here \u27a1\ufe0f https://t.co/GjFfqyW07k https://t.co/UzwpxSp2WR",
+        "created_at": "Sat Apr 04 10:50:24 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Russell71547413/status/2040381465742180549",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040380690689364218",
+        "ticker": "NTRA",
+        "author": "Crypto912945",
+        "text": "Alerts before spikes and right as  big news drops Free discord chatroom:,,, $CRWV $SOXL $PLTR $AMD Discord Link Here \u27a1\ufe0f https://t.co/DxRULxQONO https://t.co/gz1VBrhTO2",
+        "created_at": "Sat Apr 04 10:47:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Crypto912945/status/2040380690689364218",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040349678194024569",
+        "ticker": "NTRA",
+        "author": "EmmanuelInvest",
+        "text": "\ud83d\udea8 AI CLOUD INFRASTRUCTURE STOCKS HOLDING FIRM  Small moves today\u2026  but a major structural shift is building underneath \ud83d\udc40  \ud83d\udcca TODAY\u2019S AI CLOUD SNAPSHOT  \ud83d\udd34 $NVTS \ud83d\udd34 $CRWV \ud83d\udd34 $ZETA \ud83d\udd34 $APLD \ud83d\udd34 $NBIS \ud83d\udfe2 $IREN  \ud83d\udc49 Mostly sideways movement \u2014 but the sector continues trading as a unified infrastructure theme  That usually signals early-stage positioning around long-duration compute demand \u26a1 WHAT THIS SECTOR REALLY IS AI cloud specialists are not traditional SaaS companies They are becoming: the compute infras",
+        "created_at": "Sat Apr 04 08:44:05 +0000 2026",
+        "likes": 2,
+        "retweets": 1,
+        "url": "https://x.com/EmmanuelInvest/status/2040349678194024569",
+        "engagement": 4,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040343908140654729",
+        "ticker": "NTRA",
+        "author": "EmilyCa00774821",
+        "text": "$CRWV new alerts have been posted in the last hours-",
+        "created_at": "Sat Apr 04 08:21:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/EmilyCa00774821/status/2040343908140654729",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040341565089234974",
+        "ticker": "NTRA",
+        "author": "sarbjeetjohal",
+        "text": "It looks like that slowly, AI CapEx is evaporating: Poolside\u2019s Project Horizon just lost $CRWV as anchor tenant and its $2B Nvidia-led funding round at the same time.",
+        "created_at": "Sat Apr 04 08:11:51 +0000 2026",
+        "likes": 4,
+        "retweets": 1,
+        "url": "https://x.com/sarbjeetjohal/status/2040341565089234974",
+        "engagement": 6,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040329963233022093",
+        "ticker": "NTRA",
+        "author": "AlphaOwlTrading",
+        "text": "@Zac_Markovich @grok Interesting. I own $NBIS but $CRWV would be a good add \ud83e\udd14",
+        "created_at": "Sat Apr 04 07:25:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/AlphaOwlTrading/status/2040329963233022093",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040328452469825880",
+        "ticker": "NTRA",
+        "author": "BastianelliLore",
+        "text": "\ud83d\udea8 BREAKING: $CRWV WALKS FROM 2GW TEXAS DATA CENTER  Building real things is tough guys, that\u2019s why if you find a company which does it exceptionally well, you want to bet on it. In this case it\u2019s not probably CoreWeave fault though.  $NBIS",
+        "created_at": "Sat Apr 04 07:19:45 +0000 2026",
+        "likes": 10,
+        "retweets": 0,
+        "url": "https://x.com/BastianelliLore/status/2040328452469825880",
+        "engagement": 10,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040315523121172943",
+        "ticker": "NTRA",
+        "author": "RayT168",
+        "text": "$NBIS and pple are crying that Arkardy and a few management sold for tax purposes?  Look at $CRWV insiders sale lmao. Go cry a river. CEO sold $19m Chief Strategy Officer sold $111m  https://t.co/G3mLg1lNrr",
+        "created_at": "Sat Apr 04 06:28:22 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/RayT168/status/2040315523121172943",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038138011469369623",
+        "ticker": "NTRA",
+        "author": "Crypto912945",
+        "text": "Alerts before spikes and right as big news drops Free discord chatroom:/// $CRWV $SOXL $PLTR $AMD Discord Link Here \u27a1\ufe0f https://t.co/DxRULxQONO https://t.co/pbVT78N9Ml",
+        "created_at": "Sun Mar 29 06:15:43 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Crypto912945/status/2038138011469369623",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038136938327404624",
+        "ticker": "NTRA",
+        "author": "Belinda14015738",
+        "text": "$META $CRWV $OXY New alerts have been posted in the last hours https://t.co/0weKAzYC7p",
+        "created_at": "Sun Mar 29 06:11:27 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Belinda14015738/status/2038136938327404624",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038136110124286095",
+        "ticker": "NTRA",
+        "author": "Crypto912945",
+        "text": "Best trading community.\\\\] $AMZN $CRWV $SOXL $PLTR Discord Link Here \u27a1\ufe0f https://t.co/DxRULxQONO https://t.co/KWYTZGFoiS",
+        "created_at": "Sun Mar 29 06:08:10 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Crypto912945/status/2038136110124286095",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038135639414358346",
+        "ticker": "NTRA",
+        "author": "Crypto912945",
+        "text": "Best trading community.\\\\ $GOOGL $AMZN $CRWV $SOXL Discord Link Here \u27a1\ufe0f https://t.co/DxRULxQONO https://t.co/r5JgNOiLhD",
+        "created_at": "Sun Mar 29 06:06:17 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Crypto912945/status/2038135639414358346",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038121849696219319",
+        "ticker": "NTRA",
+        "author": "kaixinluo6268",
+        "text": "@aleabitoreddit Spot on analysis. Most investors ignore the 'Cost of Debt' until it becomes a terminal illness. $CRWV is essentially running a high-interest carry trade on GPUs\u2014fragile in a 'higher-for-longer' environment.",
+        "created_at": "Sun Mar 29 05:11:30 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/kaixinluo6268/status/2038121849696219319",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038113501118709961",
+        "ticker": "NTRA",
+        "author": "Russell71547413",
+        "text": "Alerts before spikes and right as big news drops Free discord chatroom://,,  $CRWV $SOXL $PLTR $AMD Discord Link Here \u27a1\ufe0f https://t.co/9mKQyrBUQX https://t.co/LthXkf34HN",
+        "created_at": "Sun Mar 29 04:38:19 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Russell71547413/status/2038113501118709961",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038113424870363368",
+        "ticker": "NTRA",
+        "author": "_Sgr_A_Star",
+        "text": "$IREN $NBIS $CRWV $ORCL  Jesus H. Christ.  A100, H100, B200 rates.  Anyone have some spare compute?! https://t.co/5n2Bhunoh4",
+        "created_at": "Sun Mar 29 04:38:01 +0000 2026",
+        "likes": 146,
+        "retweets": 14,
+        "url": "https://x.com/_Sgr_A_Star/status/2038113424870363368",
+        "engagement": 174,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038108732467659167",
+        "ticker": "NTRA",
+        "author": "Russell71547413",
+        "text": "Best trading community.//,,  $AMZN $CRWV $SOXL $PLTR Discord Link Here \u27a1\ufe0f https://t.co/9mKQyrBUQX https://t.co/hLaV2UwkYw",
+        "created_at": "Sun Mar 29 04:19:22 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Russell71547413/status/2038108732467659167",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038107945419042832",
+        "ticker": "NTRA",
+        "author": "Russell71547413",
+        "text": "Best trading community.///,,  $GOOGL $AMZN $CRWV $SOXL Discord Link Here \u27a1\ufe0f https://t.co/9mKQyrBUQX https://t.co/ElexVNghQG",
+        "created_at": "Sun Mar 29 04:16:15 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Russell71547413/status/2038107945419042832",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038087057495790010",
+        "ticker": "NTRA",
+        "author": "Russell71547413",
+        "text": "Best trading community./// $GOOGL $AMZN $CRWV $SOXL Discord Link Here \u27a1\ufe0f https://t.co/GjFfqyW07k https://t.co/ki9qDjrIxt",
+        "created_at": "Sun Mar 29 02:53:14 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Russell71547413/status/2038087057495790010",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038087019730215084",
+        "ticker": "NTRA",
+        "author": "ThomasEdis28199",
+        "text": "Best trading community.,,, $GOOGL $AMZN $CRWV $SOXL Discord Link Here \u27a1\ufe0f https://t.co/M5OyOnFsp3 https://t.co/KbGai3ccsP",
+        "created_at": "Sun Mar 29 02:53:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/ThomasEdis28199/status/2038087019730215084",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038085505787785649",
+        "ticker": "NTRA",
+        "author": "Russell71547413",
+        "text": "Best trading community.// $AMZN $CRWV $SOXL $PLTR Discord Link Here \u27a1\ufe0f https://t.co/GjFfqyW07k https://t.co/kvy0YeymT1",
+        "created_at": "Sun Mar 29 02:47:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Russell71547413/status/2038085505787785649",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2040555030667722865",
+        "ticker": "NTRA",
+        "author": "earnings_feed",
+        "text": "\ud83d\udcc9 Insider Cluster Sell  3 insiders at Spyre Therapeutics, Inc. $SYRE sold $1.5M in shares over 7 days.  https://t.co/x232N5eKKK",
+        "created_at": "Sat Apr 04 22:20:05 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/earnings_feed/status/2040555030667722865",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039822048587817169",
+        "ticker": "NTRA",
+        "author": "PersimmonTI",
+        "text": "$SYRE  if Mr Market really wants to sell $SYRE down should there be \u201cnegative\u201d $JNJ combo data,  I\u2019ll be waiting..",
+        "created_at": "Thu Apr 02 21:47:29 +0000 2026",
+        "likes": 2,
+        "retweets": 0,
+        "url": "https://x.com/PersimmonTI/status/2039822048587817169",
+        "engagement": 2,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039185180368507264",
+        "ticker": "NTRA",
+        "author": "JoannaL42511420",
+        "text": "$SYRE New alerts have been posted in the last hours https://t.co/fIPrz8xkwN",
+        "created_at": "Wed Apr 01 03:36:47 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/JoannaL42511420/status/2039185180368507264",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039184404178948171",
+        "ticker": "NTRA",
+        "author": "tradedots",
+        "text": "Top Post-Market Movers (Post-market %)  $SYRE Spyre Therapeutics (+8.96%) $MLYS Mineralyce Systems (+5.76%) $PAGS PagSeguro Digital (+3.99%) $AXTI AXT (+3.86%) $ADEA Adeia (\u22124.86%) $VET Vermilion Energy (\u22123.48%) $NKE Nike (\u22129.07%) $RH RH (\u221217.03%)",
+        "created_at": "Wed Apr 01 03:33:42 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/tradedots/status/2039184404178948171",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039086771787706694",
+        "ticker": "NTRA",
+        "author": "MehmetGere1214",
+        "text": "$SYRE Here we go. https://t.co/cTA1NgasUx",
+        "created_at": "Tue Mar 31 21:05:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/MehmetGere1214/status/2039086771787706694",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039080224097481157",
+        "ticker": "NTRA",
+        "author": "Abriell75214382",
+        "text": "$SYRE Target price for today .&gt; https://t.co/IiX5gZNQeP",
+        "created_at": "Tue Mar 31 20:39:44 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/Abriell75214382/status/2039080224097481157",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039071528038375743",
+        "ticker": "NTRA",
+        "author": "expandover",
+        "text": "$SYRE - monthly: positive close above $47.97 targets $92 https://t.co/0aZUkNvEWg",
+        "created_at": "Tue Mar 31 20:05:11 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/expandover/status/2039071528038375743",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039061974953382252",
+        "ticker": "NTRA",
+        "author": "JoannaL42511420",
+        "text": "$SYRE New alerts have been posted in the last hours.. https://t.co/fIPrz8xkwN",
+        "created_at": "Tue Mar 31 19:27:13 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/JoannaL42511420/status/2039061974953382252",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039054788613095733",
+        "ticker": "NTRA",
+        "author": "JoseRestonVA",
+        "text": "Awesome! I missed $SYRE (always thinking about buying it, and always for some reason I forget and here it is \u2026 that was a cost of opportunity for me). $ORKA is a different story as I am since near $12 and avg. is near $22 (with all additions). And it is still attractive if (big if) they deliver in Q2\u2026.",
+        "created_at": "Tue Mar 31 18:58:40 +0000 2026",
+        "likes": 2,
+        "retweets": 0,
+        "url": "https://x.com/JoseRestonVA/status/2039054788613095733",
+        "engagement": 2,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039054559394587070",
+        "ticker": "NTRA",
+        "author": "NewswireTODAY",
+        "text": "NewswireToday / ABB and Syre to Explore Technologies for Industrial-scale Textile Recycling #ABBGroupNews  #Syre #Textile #Recycling #Automation #Electrification #Digitalization #Polyester #TextileWaste #Environment #Recycle - https://t.co/NBBQTzepgY",
+        "created_at": "Tue Mar 31 18:57:45 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/NewswireTODAY/status/2039054559394587070",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039040033387114935",
+        "ticker": "NTRA",
+        "author": "fundspec",
+        "text": "BEARISH $SYRE Spyre Therapeutics Option Alert: May 15 $50 Calls at the Bid: 1000 vs 2017 OI; Earnings 5/7 After Close [est]  https://t.co/NrZx7eC2FV Monitor Unusual Options Activity for free on the Options Sentiment Screener App on the AppStore or PlayStore",
+        "created_at": "Tue Mar 31 18:00:02 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/fundspec/status/2039040033387114935",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039026942293278763",
+        "ticker": "NTRA",
+        "author": "a_a_free",
+        "text": "$ORKA and $SYRE were great picks in the last 6 months.",
+        "created_at": "Tue Mar 31 17:08:00 +0000 2026",
+        "likes": 6,
+        "retweets": 0,
+        "url": "https://x.com/a_a_free/status/2039026942293278763",
+        "engagement": 6,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039026857199251526",
+        "ticker": "NTRA",
+        "author": "a_a_free",
+        "text": "I am reducing $SYRE(L).",
+        "created_at": "Tue Mar 31 17:07:40 +0000 2026",
+        "likes": 4,
+        "retweets": 0,
+        "url": "https://x.com/a_a_free/status/2039026857199251526",
+        "engagement": 4,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2039026443871535533",
+        "ticker": "NTRA",
+        "author": "BOSSTRADING0",
+        "text": "$SYRE sexy 11% move today! Nice dip yesterday to full  rip. Calls now in the money!  $XBI $IBB",
+        "created_at": "Tue Mar 31 17:06:02 +0000 2026",
+        "likes": 5,
+        "retweets": 0,
+        "url": "https://x.com/BOSSTRADING0/status/2039026443871535533",
+        "engagement": 5,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038944109151261006",
+        "ticker": "NTRA",
+        "author": "Quantumup1",
+        "text": "BTIG reiterated $SYRE Buy-$70 after $RPRX announced a co-funding agreement w/ $JNJ for the devt of JNJ-4804 (co-antibody of  remfya+golimumab [IL-23+TNF]). BTIG said\u2014We believe this is a meaningful positive catalyst for SYRE's combination approaches (SPY120/130/230) in IBD.  JNJ's expected presentation of DUET data at some point later this year and a potential progression to Phase 3 could read through positively to SYRE's platform approach to combination regimens in IBD.  SYRE's Phase 2 platform",
+        "created_at": "Tue Mar 31 11:38:52 +0000 2026",
+        "likes": 1,
+        "retweets": 0,
+        "url": "https://x.com/Quantumup1/status/2038944109151261006",
+        "engagement": 1,
+        "sentiment": "neutral",
+        "source": "twitter"
+      },
+      {
+        "id": "2038929869275324618",
+        "ticker": "NTRA",
+        "author": "tenet_research",
+        "text": "$SYRE | BTIG maintains a $70.00 per share price target on Spyre Therapeutics.",
+        "created_at": "Tue Mar 31 10:42:16 +0000 2026",
+        "likes": 0,
+        "retweets": 0,
+        "url": "https://x.com/tenet_research/status/2038929869275324618",
+        "engagement": 0,
+        "sentiment": "neutral",
+        "source": "twitter"
       }
     ],
-    "NTRA": [],
+    "CRWV": [],
     "SYRE": []
   },
   "creator_stats": {
-    "STBWB": {
+    "midwit_capital": {
       "total_tweets": 1,
-      "total_engagement": 335,
+      "total_engagement": 5,
       "tickers_mentioned": [
-        "CRWV"
+        "NTRA"
       ],
-      "subreddits": [
-        "wallstreetbets"
-      ]
+      "platform": "twitter"
     },
-    "HeavyPurpleBallsack": {
+    "0bAgLCuOMfojw0b": {
       "total_tweets": 1,
-      "total_engagement": 1279,
+      "total_engagement": 0,
       "tickers_mentioned": [
-        "CRWV"
+        "NTRA"
       ],
-      "subreddits": [
-        "wallstreetbets"
-      ]
+      "platform": "twitter"
+    },
+    "alphacharts": {
+      "total_tweets": 1,
+      "total_engagement": 18,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "TohJah7809": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Trade_market9": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "yaron_gol": {
+      "total_tweets": 3,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "IKFResearch": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "IKF_italy": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "IKFAdvisors": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "iknowfirst": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "i_Know_First": {
+      "total_tweets": 2,
+      "total_engagement": 4,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Cprediction": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "profitelligence": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "USCorpFilings": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "VanwardEdge": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "WhaleAndState": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "BrendaWood37016": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "TranAshton46458": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "marketwirenews": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "TheETFTracker": {
+      "total_tweets": 1,
+      "total_engagement": 23,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "OpenOutcrier": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Briefingcom": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "byul_japan": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "byul_finance": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "byul_korea": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "stocknear": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "UTEX_io": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Lycanbull": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "tweetatmehomie": {
+      "total_tweets": 22,
+      "total_engagement": 286,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Belinda14015738": {
+      "total_tweets": 4,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "SrinaDavid": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "inverscompu": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "BlueMoonTrades": {
+      "total_tweets": 1,
+      "total_engagement": 11,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "aussiExau": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "institLPGP": {
+      "total_tweets": 1,
+      "total_engagement": 3,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "jwat_5": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "1983_alimbek": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "PaulGould442478": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "GyujinAAIG": {
+      "total_tweets": 2,
+      "total_engagement": 20,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "zavakrayn": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Biotech_FC": {
+      "total_tweets": 1,
+      "total_engagement": 13,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "MultibaggAIHQ": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "ProblemSniper": {
+      "total_tweets": 1,
+      "total_engagement": 57,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "ousvyatsky": {
+      "total_tweets": 1,
+      "total_engagement": 2,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "adhikansh53": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "_Sgr_A_Star": {
+      "total_tweets": 2,
+      "total_engagement": 222,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "andrawesbahou": {
+      "total_tweets": 1,
+      "total_engagement": 22,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "ScoProfits": {
+      "total_tweets": 1,
+      "total_engagement": 3,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Stonefoxcapital": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "BullsGujarat": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "BastianelliLore": {
+      "total_tweets": 2,
+      "total_engagement": 10,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "BonkDaCarnivore": {
+      "total_tweets": 1,
+      "total_engagement": 7,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "EmilyCa00774821": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Blue_1Trades": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "JD4289": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "YeWays1": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "valderramarte": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Sean__James": {
+      "total_tweets": 1,
+      "total_engagement": 2,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Rino868": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "OptionsSurgery": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "grok": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "LEAPTRADER_": {
+      "total_tweets": 1,
+      "total_engagement": 17,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "HaydnBCole": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "JohnLau1194508": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "thekingBones": {
+      "total_tweets": 1,
+      "total_engagement": 2,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "makemoneymoney6": {
+      "total_tweets": 2,
+      "total_engagement": 3,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "merkapresearch": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "nsideralert": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Russell71547413": {
+      "total_tweets": 6,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Crypto912945": {
+      "total_tweets": 4,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "EmmanuelInvest": {
+      "total_tweets": 1,
+      "total_engagement": 4,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "sarbjeetjohal": {
+      "total_tweets": 1,
+      "total_engagement": 6,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "AlphaOwlTrading": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "RayT168": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "kaixinluo6268": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "ThomasEdis28199": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "earnings_feed": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "PersimmonTI": {
+      "total_tweets": 1,
+      "total_engagement": 2,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "JoannaL42511420": {
+      "total_tweets": 2,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "tradedots": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "MehmetGere1214": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Abriell75214382": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "expandover": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "JoseRestonVA": {
+      "total_tweets": 1,
+      "total_engagement": 2,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "NewswireTODAY": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "fundspec": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "a_a_free": {
+      "total_tweets": 2,
+      "total_engagement": 10,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "BOSSTRADING0": {
+      "total_tweets": 1,
+      "total_engagement": 5,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "Quantumup1": {
+      "total_tweets": 1,
+      "total_engagement": 1,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    "tenet_research": {
+      "total_tweets": 1,
+      "total_engagement": 0,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
     }
   },
   "top_creators": [
     {
-      "creator": "HeavyPurpleBallsack",
-      "total_tweets": 1,
-      "total_engagement": 1279,
+      "creator": "tweetatmehomie",
+      "total_tweets": 22,
+      "total_engagement": 286,
       "tickers_mentioned": [
-        "CRWV"
+        "NTRA"
       ],
-      "subreddits": [
-        "wallstreetbets"
-      ]
+      "platform": "twitter"
     },
     {
-      "creator": "STBWB",
-      "total_tweets": 1,
-      "total_engagement": 335,
+      "creator": "_Sgr_A_Star",
+      "total_tweets": 2,
+      "total_engagement": 222,
       "tickers_mentioned": [
-        "CRWV"
+        "NTRA"
       ],
-      "subreddits": [
-        "wallstreetbets"
-      ]
+      "platform": "twitter"
+    },
+    {
+      "creator": "ProblemSniper",
+      "total_tweets": 1,
+      "total_engagement": 57,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "TheETFTracker",
+      "total_tweets": 1,
+      "total_engagement": 23,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "andrawesbahou",
+      "total_tweets": 1,
+      "total_engagement": 22,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "GyujinAAIG",
+      "total_tweets": 2,
+      "total_engagement": 20,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "alphacharts",
+      "total_tweets": 1,
+      "total_engagement": 18,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "LEAPTRADER_",
+      "total_tweets": 1,
+      "total_engagement": 17,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "Biotech_FC",
+      "total_tweets": 1,
+      "total_engagement": 13,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "BlueMoonTrades",
+      "total_tweets": 1,
+      "total_engagement": 11,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "BastianelliLore",
+      "total_tweets": 2,
+      "total_engagement": 10,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "a_a_free",
+      "total_tweets": 2,
+      "total_engagement": 10,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "BonkDaCarnivore",
+      "total_tweets": 1,
+      "total_engagement": 7,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "sarbjeetjohal",
+      "total_tweets": 1,
+      "total_engagement": 6,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "midwit_capital",
+      "total_tweets": 1,
+      "total_engagement": 5,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "BOSSTRADING0",
+      "total_tweets": 1,
+      "total_engagement": 5,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "i_Know_First",
+      "total_tweets": 2,
+      "total_engagement": 4,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "EmmanuelInvest",
+      "total_tweets": 1,
+      "total_engagement": 4,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "institLPGP",
+      "total_tweets": 1,
+      "total_engagement": 3,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
+    },
+    {
+      "creator": "ScoProfits",
+      "total_tweets": 1,
+      "total_engagement": 3,
+      "tickers_mentioned": [
+        "NTRA"
+      ],
+      "platform": "twitter"
     }
   ],
-  "fetched_at": "2026-04-04T18:24:57.651231"
+  "fetched_at": "2026-04-05T06:30:13.013951"
 }
